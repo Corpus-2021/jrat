@@ -1,0 +1,23 @@
+
+borg.shiftone.jrat.util.log.LogFactory#getLogger(Ljava/lang/Class;)Lorg/shiftone/jrat/util/log/Log;F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\log\LogFactory.java ("1*•
+1F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\log\LogFactory.java (·´
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\log\LogFactory.java ((
+%0java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+
+klassjava.lang.Class2	getName()›
+˜
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\log\LogFactory.java ()$
+%1org.shiftone.jrat.util.log.Log"corg.shiftone.jrat.util.log.LogFactory#getLogger(Ljava/lang/String;)Lorg/shiftone/jrat/util/log/Log;*)"'
+%org.shiftone.jrat.util.log.LogFactory*
+
+%0java.lang.String"p
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\log\LogFactory.java (*&
+$
+%1org.shiftone.jrat.util.log.Log:
+klassjava.lang.ClassB)"'
+%org.shiftone.jrat.util.log.LogFactory

@@ -1,0 +1,61 @@
+
+`org.shiftone.jrat.core.MethodKeyPool#getId(Lorg/shiftone/jrat/core/MethodKey;)Ljava/lang/String;E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaN N("4*Ã
+2E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR2 R(6{
+y
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR2 R(6
+%2java.lang.String"__id*
+
+%4
+<nulltype>*
+1*É
+3E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR$ R(,≠
+™
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR$ R(/
+%3java.lang.String"__id*C*A
+9
+keyAndId-org.shiftone.jrat.core.MethodKeyPool$KeyAndId"
+idÅ
+
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR$ R(/
+%2java.lang.String"__id*
+
+%3java.lang.String*
+1*’
+4E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaP' P(3°
+û
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaP' P(3
+%0java.util.Map"__id*:*8&
+$org.shiftone.jrat.core.MethodKeyPool"
+method2IdMap¥
+±
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaP' P(B
+%1java.lang.Object"__mapGet*
+
+%0java.util.Map*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey•
+¢
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaP P(C9
+keyAndId-org.shiftone.jrat.core.MethodKeyPool$KeyAndId"__id*
+
+%1java.lang.Object*
+2
+3*≠
+1E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR R(7"a
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\core\MethodKeyPool.javaR R(7
+
+%2java.lang.String:-
+	methodKey org.shiftone.jrat.core.MethodKeyB(&
+$org.shiftone.jrat.core.MethodKeyPool

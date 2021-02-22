@@ -1,0 +1,22 @@
+
+Horg.shiftone.jrat.proxy.jdbc.ProxyDriver#acceptsURL(Ljava/lang/String;)ZI
+?C:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyDriver.javaa a("1*ÿ
+1I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyDriver.javac c(s
+q
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyDriver.javac c((
+%0java.lang.String"__id*
+""äá
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyDriver.javac c()
+%1boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+urljava.lang.String*
+
+%0java.lang.String2startsWith(Ljava/lang/String;)"S
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyDriver.javac c(*
+"":
+urljava.lang.StringB,*
+(org.shiftone.jrat.proxy.jdbc.ProxyDriver

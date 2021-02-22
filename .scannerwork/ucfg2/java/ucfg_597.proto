@@ -1,0 +1,44 @@
+
+Worg.shiftone.jrat.proxy.jdbc.ProxyPooledConnection#getConnection()Ljava/sql/Connection;S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java7 7(#"1*î
+1S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java9 9(Œ
+‰
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java9 9($
+%0org.shiftone.jrat.util.log.Log"__id*
+""õò
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java9 9(#
+
+%1void"8org.shiftone.jrat.util.log.Log#info(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*
+getConnection()2info(Ljava/lang/Object;)Ô
+Ñ
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java;# ;(9 
+%2javax.sql.PooledConnection"__id*R*P4
+2org.shiftone.jrat.proxy.jdbc.ProxyPooledConnection"
+targetPooledConnectionéæ
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java;# ;(I
+%3java.sql.Connection"?javax.sql.PooledConnection#getConnection()Ljava/sql/Connection;*"
+ 
+%2javax.sql.PooledConnection2getConnection()º·
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java; ;("2
+%4,org.shiftone.jrat.proxy.jdbc.ProxyConnection",org.shiftone.jrat.proxy.jdbc.ProxyConnectionþ
+û
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java; ;(J
+%5"Korg.shiftone.jrat.proxy.jdbc.ProxyConnection#<init>(Ljava/sql/Connection;)V*4
+2
+%4,org.shiftone.jrat.proxy.jdbc.ProxyConnection*
+
+%3java.sql.Connection"‹
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyPooledConnection.java; ;(K4
+2
+%4,org.shiftone.jrat.proxy.jdbc.ProxyConnectionB64
+2org.shiftone.jrat.proxy.jdbc.ProxyPooledConnection

@@ -1,0 +1,67 @@
+
+Gorg.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph#getValue(I)J[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java2 2("4*å
+2[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java; ;(~
+|
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java; ;(
+
+%4long"__id*
+	
+%6int*
+1*æ
+3[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java: :(
+}
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java: :(+
+
+%4long"__id*
+
+
+%5long*
+1*ª
+
+4[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java5$ 5(-é
+æ
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java5$ 5(-2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel"__id*M*K<
+:org.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph"
+	rateModelÉÆ
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java5$ 5(Q(
+%1"org.shiftone.jrat.core.Accumulator"corg.shiftone.jrat.provider.rate.ui.RateModel#getAccumulator(II)Lorg/shiftone/jrat/core/Accumulator;*4
+2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel*
+""*
+""2getAccumulator(II)½
+º
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java5 5(R)
+acc"org.shiftone.jrat.core.Accumulator"__id**
+(
+%1"org.shiftone.jrat.core.Accumulatoråâ
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java6$ 6(:
+
+%2long"6org.shiftone.jrat.core.Accumulator#getTotalDuration()J*+
+)
+acc"org.shiftone.jrat.core.Accumulator2getTotalDuration()ßÜ
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java7$ 7(7
+
+%3long"3org.shiftone.jrat.core.Accumulator#getTotalExits()J*+
+)
+acc"org.shiftone.jrat.core.Accumulator2getTotalExits()*
+2
+3*Ç
+1[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java9 ;("e
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java9 ;(
+"":
+""B><
+:org.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph

@@ -1,0 +1,26 @@
+
+Sorg.shiftone.jrat.util.AsyncOutputStream#newBuffer()Ljava/io/ByteArrayOutputStream;I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java0) 0(2"1*ô
+1I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java2) 2(<f
+d
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java2) 2(<	
+%0int"__id*
+""’
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java2 2((#
+%1java.io.ByteArrayOutputStream"java.io.ByteArrayOutputStream²
+¯
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java2 2(=
+%2"(java.io.ByteArrayOutputStream#<init>(I)V*%
+#
+%1java.io.ByteArrayOutputStream*
+	
+%0int"r
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\AsyncOutputStream.java2 2(>%
+#
+%1java.io.ByteArrayOutputStreamB,"*
+(org.shiftone.jrat.util.AsyncOutputStream

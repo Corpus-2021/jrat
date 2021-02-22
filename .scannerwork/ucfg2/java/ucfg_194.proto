@@ -1,0 +1,45 @@
+
+Aorg.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getLoginTimeout()IQ
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¦ ¦("1*Å
+
+1Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¨$ ¨(7†
+ƒ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¨$ ¨(9
+%0javax.sql.XADataSource"\org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getTargetDataSource()Ljavax/sql/XADataSource;*20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSourceš
+—
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¨ ¨(:
+dsjavax.sql.XADataSource"__id*
+
+%0javax.sql.XADataSourceÃÀ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java©$ ©(8	
+%1int"-javax.sql.CommonDataSource#getLoginTimeout()I*
+
+dsjavax.sql.XADataSource2getLoginTimeout()Š
+‡
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java« «($
+%2org.shiftone.jrat.util.log.Log"__id*
+""›
+˜
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java« «(7
+%3java.lang.String"__concat*
+getLoginTimeout() -> *
+""øõ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java« «(8
+
+%4void"8org.shiftone.jrat.util.log.Log#info(Ljava/lang/Object;)V*&
+$
+%2org.shiftone.jrat.util.log.Log*
+
+%3java.lang.String2info(Ljava/lang/Object;)"[
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java­ ­(
+""B20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

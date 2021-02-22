@@ -1,0 +1,20 @@
+
++org.shiftone.jrat.core.ShutdownHook#size()ID
+:C:\q\jrat-0.6\src\org\shiftone\jrat\core\ShutdownHook.javar r("1*–
+1D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\core\ShutdownHook.javat t(¢
+ü
+D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\core\ShutdownHook.javat t(
+%0java.util.Stack"__id*:*8%
+#org.shiftone.jrat.core.ShutdownHook"
+shutdownStackèå
+D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\core\ShutdownHook.javat t(#	
+%1int"java.util.Vector#size()I*
+
+%0java.util.Stack2size()"N
+D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\core\ShutdownHook.javat t($
+""B'%
+#org.shiftone.jrat.core.ShutdownHook

@@ -1,0 +1,45 @@
+
+Forg.shiftone.jrat.core.Accumulator#getStdDeviation()Ljava/lang/Double;E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaú ú('"3*˝
+2E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java¢! ¢(/ç
+ä
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java•& •(H
+%0double"java.lang.Math#sqrt(D)D*"
+java.lang.Math*
+""sq
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java• •(%
+%1java.lang.Double"java.lang.Doubleó
+î
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java• •(I
+%2"java.lang.Double#<init>(D)V*
+
+%1java.lang.Double*
+
+%0doubleå
+â
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java• •(I 
+stdDeviationjava.lang.Double"__id*
+
+%1java.lang.Double*
+1*Õ
+3E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaû û("y
+w
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaû û(# 
+stdDeviationjava.lang.Double"__id*
+""*
+2
+1*∑
+1E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java© ©("k
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.java© ©("
+ 
+stdDeviationjava.lang.DoubleB&$
+"org.shiftone.jrat.core.Accumulator

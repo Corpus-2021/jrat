@@ -1,0 +1,25 @@
+
+Uorg.shiftone.jrat.provider.tree.ui.StackTableModel#getColumnName(I)Ljava/lang/String;S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTableModel.javah h("1*™
+1S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTableModel.javaj j(¶
+³
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTableModel.javaj j(
+%0$Array"__id*H*F4
+2org.shiftone.jrat.provider.tree.ui.StackTableModel"
+COLUMN_NAMES”
+‘
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTableModel.javaj j((
+%1java.lang.String"
+__arrayGet*
+
+%0$Array*
+"""o
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTableModel.javaj j()
+
+%1java.lang.String:
+""B64
+2org.shiftone.jrat.provider.tree.ui.StackTableModel

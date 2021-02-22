@@ -1,0 +1,32 @@
+
+Qorg.shiftone.jrat.ui.inject.InjectionManager#setInjectorWithDefaultClassLoader()ZO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java— —(4"1*é
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaš š(ˆ
+…
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaš š($
+%0org.shiftone.jrat.util.log.Log"__id*
+""ûø
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaš š(-
+
+%1void"8org.shiftone.jrat.util.log.Log#info(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*
+setWithDefaultClassLoader2info(Ljava/lang/Object;)~
+|
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaœ œ((
+%2java.lang.ClassLoader"__id*
+""®«
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaœ œ()
+%3boolean"Rorg.shiftone.jrat.ui.inject.InjectionManager#setInjector(Ljava/lang/ClassLoader;)Z*0.
+,org.shiftone.jrat.ui.inject.InjectionManager*
+
+%2java.lang.ClassLoader2$setInjector(Ljava/lang/ClassLoader;)"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaœ œ(*
+""B0.
+,org.shiftone.jrat.ui.inject.InjectionManager

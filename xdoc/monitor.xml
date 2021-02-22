@@ -1,0 +1,121 @@
+<?xml version="1.0"?>
+<document title="JRat Programmatic Monitoring API">
+
+
+	<section-group>
+
+		<section title="Why should I use the Monitor API?">
+			<p>
+			You may want to use the Monitor API if you need a higher degree of
+			control than the other hooks provide.
+			</p>
+			<p>
+			The API is best suited for coarse grained events, such as the service()
+			of servlets or the onMessage() method of an MDB.
+			</p>
+		</section>
+
+		<section title="Why should I NOT use the Monitor API?">
+
+			<ul>
+			<li>It takes development time.</li>
+			<li>It takes testing time.</li>
+			<li>It used extensively, it decreases readability.</li>
+			<li>It can't easily be removed.</li>
+			<li>It is somewhat dangerous (see below).</li>
+			</ul>
+
+		</section>
+
+		<section title="What are the dangers of using the Monitor API?">
+			Handlers are implemented with a few assumptions, two of which can be violated by sloppy use of
+			the Monitor API.
+			<ol>
+			<li>In general, a thread will eventually call "stop" after it calls "start".  This rule does not
+			apply during shutdown, however everything possible should be done to ensure "stop" gets called.</li>
+			<li>A thread will call "stop" on monitors the opposite order it called "start" on them.
+			(startA, startB, stopB, stopA not startA, startB, stopA, stopB)</li>
+			</ol>
+			Violation of these assumptions may cause handler errors, unnecessary memory allocation, and generally
+			unpredictable behavior.
+		</section>
+
+		<section title="Why does JRat expect matching pairs of events?">
+			<p>
+			It allows much more information to be extrapolated from events.
+			Handlers are able to trace a program's execution.
+			I mention this "danger" here to encourage careful use of the Monitor API.
+			With other hooks there is almost no risk of events being created incorrectly.
+			</p>
+		</section>
+
+		<section title="Isn't monitor code kinda like logging?">
+			<p>
+			Similar, except in my opinion logging (with Log4j) improves the readability of code, while monitoring does not.
+			</p>
+		</section>
+
+		<section title="How should I use the Monitor API?">
+<code>
+public myMethod() {
+
+    Monitor monitor = Monitor.start(this, "myMethod");
+    try {
+
+    	// do the thing
+
+    } finally {
+
+    	monitor.stop();
+
+    }
+}
+
+public myMethodWithException() throws Exception {
+
+    Monitor monitor = Monitor.start(this, "myMethodWithException");
+    try {
+
+    	// do the other thing
+
+    } catch (Exception e) {
+
+    	monitor.error(e);
+	    throw e;
+
+    } finally {
+
+    	monitor.stop();
+
+    }
+}
+</code>
+			<p>
+				Notice that every effort is made to ensure that monitor.stop() gets called.
+			</p>
+
+		</section>
+
+		<section title="Where did the Monitor API come from?">
+			<p>
+			The API is based loosely on the JAMon (Java Application Monitor) API by Steve Souza.
+			I have mentioned above that the Monitor API can be somewhat dangerous if used incorrectly.
+			This is <bold>not</bold> a problem with JAMon.
+			The issues within JRat are based on the fact that some handlers expect to receive matching pairs of start/stop events.
+			In JRat terms, JAMon only really updates statistics in the <b>onMethodFinish</b> method, so there is no expectation of matched events.
+			Not all handlers have these expectations, but some do (tree does, stat doesn't).
+
+			</p>
+			<p>
+			I highly recommend evaluating JAMon, especially for monitoring coarse events (such as Servlets or Web Services).
+			</p>
+			<a href="http://www.jamonapi.com">JAMon</a>
+		</section>
+
+
+
+	</section-group>
+
+
+
+</document>

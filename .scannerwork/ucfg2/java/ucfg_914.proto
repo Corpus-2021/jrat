@@ -1,0 +1,62 @@
+
+org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaA A( "1*õ
+1H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaC C(¢
+Ÿ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaC C(
+%0java.lang.Class"__id*6*4)
+'org.shiftone.jrat.test.InjectorTestCase"
+clazzÊÇ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaC C(=
+%1java.lang.reflect.Method"Yjava.lang.Class#getMethod(Ljava/lang/String;[Ljava/lang/Class;)Ljava/lang/reflect/Method;*
+
+%0java.lang.Class* 
+
+
+methodNamejava.lang.String*
+
+argTypes$Array2/getMethod(Ljava/lang/String;[Ljava/lang/Class;)™
+–
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaC C(>"
+methodjava.lang.reflect.Method"__id* 
+
+%1java.lang.reflect.Method¢
+Ÿ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaD& D(+
+%2java.lang.Class"__id*6*4)
+'org.shiftone.jrat.test.InjectorTestCase"
+clazz¾»
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaD& D(9
+%3java.lang.Object"/java.lang.Class#newInstance()Ljava/lang/Object;*
+
+%2java.lang.Class2newInstance()ÅÂ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaD D(E
+%4java.lang.Object"Xjava.lang.reflect.Method#invoke(Ljava/lang/Object;[Ljava/lang/Object;)Ljava/lang/Object;*$
+"
+methodjava.lang.reflect.Method*
+
+%3java.lang.Object*
+
+	argValues$Array2-invoke(Ljava/lang/Object;[Ljava/lang/Object;)„
+
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaD D(F
+ojava.lang.Object"__id*
+
+%4java.lang.Object"c
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaF F(
+
+ojava.lang.Object:
+
+methodNamejava.lang.String:
+argTypes$Array:
+	argValues$ArrayB+)
+'org.shiftone.jrat.test.InjectorTestCase

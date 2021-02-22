@@ -1,0 +1,105 @@
+
+Vorg.shiftone.jrat.util.SignatureUtil#getSignature(Ljava/lang/Class;)Ljava/lang/String;E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java, ,(%"5*ø
+2E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java< <(
+Œ
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java< <(
+%7java.lang.String"__concat*
+""*
+
+sigjava.lang.StringŽ
+‹
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java< <(%
+%8java.lang.String"__concat*
+
+%7java.lang.String*
+""ƒ
+€
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java< <(%
+sigjava.lang.String"__id*
+
+%8java.lang.String*
+1*ƒ
+3E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java6 6(¶³
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java6 6((
+%4java.lang.String"+java.lang.Class#getName()Ljava/lang/String;*
+
+klassjava.lang.Class2	getName()ƒ
+€
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java6 6()
+sigjava.lang.String"__id*
+
+%4java.lang.StringÊÇ
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java8 8('
+%5java.lang.String".java.lang.String#replace(CC)Ljava/lang/String;*
+
+sigjava.lang.String*
+""*
+""2replace(CC)ƒ
+€
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java8 8('
+sigjava.lang.String"__id*
+
+%5java.lang.Stringœ™
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java: :(
+%6boolean"java.lang.Class#isArray()Z*
+
+klassjava.lang.Class2	isArray()*
+2
+1*ö
+4E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java2 2(+¤
+¡
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java2 2(+
+%2java.util.Map"__id*=*;&
+$org.shiftone.jrat.util.SignatureUtil"
+PRIMITIVE_TYPESŸ
+œ
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java2 2(6
+%3java.lang.Object"__mapGet*
+
+%2java.util.Map*
+
+klassjava.lang.Class"a
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java2 2(7
+
+%3java.lang.Object*ð
+5E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java. .(ô
+ñ
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java. .(,
+
+%0void"Rorg.shiftone.jrat.util.Assert#assertNotNull(Ljava/lang/String;Ljava/lang/Object;)V*!"
+org.shiftone.jrat.util.Assert*	
+class*
+
+klassjava.lang.Class¤¡
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java0 0(
+%1boolean"java.lang.Class#isPrimitive()Z*
+
+klassjava.lang.Class2isPrimitive()*
+3
+4*®
+1E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java? ?("b
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\SignatureUtil.java? ?(
+
+sigjava.lang.String:
+klassjava.lang.ClassB("&
+$org.shiftone.jrat.util.SignatureUtil

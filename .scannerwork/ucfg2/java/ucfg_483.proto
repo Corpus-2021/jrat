@@ -1,0 +1,29 @@
+
+aorg.shiftone.jrat.test.dummy.CrashTestDummy#returnObjectArg(Ljava/lang/Object;)Ljava/lang/Object;N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java¡ ¡(!"1* 
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java£ £(‡
+„
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java£ £($
+%0org.shiftone.jrat.util.log.Log"__id*
+""Œ‰
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java£ £(>
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*-+
+)public Object returnObjectArg(Object obj)2debug(Ljava/lang/Object;)Ä
+Á
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java¤ ¤(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"k
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java¦ ¦(
+
+objjava.lang.Object:
+objjava.lang.ObjectB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

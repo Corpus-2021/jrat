@@ -1,0 +1,24 @@
+
+Morg.shiftone.jrat.proxy.jdbc.ProxyCallableStatement#getClob(I)Ljava/sql/Clob;V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaÅ Å("1*â
+1V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaÉ É(&Ÿ
+÷
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaÉ É(& 
+%0java.sql.CallableStatement"__id*T*R5
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement"
+targetCallableStatementﬁ€
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaÉ É(1
+%1java.sql.Clob"4java.sql.CallableStatement#getClob(I)Ljava/sql/Clob;*"
+ 
+%0java.sql.CallableStatement*
+""2
+getClob(I)"o
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaÉ É(2
+
+%1java.sql.Clob:
+""B75
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement

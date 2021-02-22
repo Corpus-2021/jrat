@@ -1,0 +1,43 @@
+
+Xorg.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getXAConnection()Ljavax/sql/XAConnection;O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java1 1('"1*ñ
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java3 3(à
+Ö
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java3 3($
+%0org.shiftone.jrat.util.log.Log"__id*
+""Û
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java3 3(%
+
+%1void"8org.shiftone.jrat.util.log.Log#info(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*
+getXAConnection()2info(Ljava/lang/Object;)Ñ
+Å
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java5% 5(:
+%2javax.sql.XADataSource"\org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getTargetDataSource()Ljavax/sql/XADataSource;*20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSourceÁ‰
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java5% 5(L
+%3javax.sql.XAConnection"@javax.sql.XADataSource#getXAConnection()Ljavax/sql/XAConnection;*
+
+%2javax.sql.XADataSource2getXAConnection()∫∑
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java5 5($4
+%4.org.shiftone.jrat.proxy.jdbc.ProxyXAConnection".org.shiftone.jrat.proxy.jdbc.ProxyXAConnectionÑ
+Å
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java5 5(M
+%5"Porg.shiftone.jrat.proxy.jdbc.ProxyXAConnection#<init>(Ljavax/sql/XAConnection;)V*6
+4
+%4.org.shiftone.jrat.proxy.jdbc.ProxyXAConnection*
+
+%3javax.sql.XAConnection"â
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java5 5(N6
+4
+%4.org.shiftone.jrat.proxy.jdbc.ProxyXAConnectionB20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

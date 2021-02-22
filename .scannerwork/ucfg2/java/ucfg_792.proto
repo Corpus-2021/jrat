@@ -1,0 +1,20 @@
+
+8org.shiftone.jrat.core.RuntimeContextImpl#getUpTimeMs()JL
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaÝ Ý("1*¤
+1L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaß ß(š
+—
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaß ß()
+
+%0long"%java.lang.System#currentTimeMillis()J*"
+java.lang.SystemÛØ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaß, ß(<
+
+%1long";org.shiftone.jrat.core.RuntimeContextImpl#getStartTimeMs()J*-+
+)org.shiftone.jrat.core.RuntimeContextImpl2getStartTimeMs()"V
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaß ß(=
+""B-+
+)org.shiftone.jrat.core.RuntimeContextImpl

@@ -1,0 +1,28 @@
+
+9org.shiftone.jrat.inject.process.OpenInputStream#skip(J)JS
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.java§ §("1*˜
+1S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaª ª(èå
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaª ª(
+
+%0void">org.shiftone.jrat.inject.process.OpenInputStream#assertOpen()V*42
+0org.shiftone.jrat.inject.process.OpenInputStream2assertOpen()À
+½
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.java¬ ¬(
+%1java.io.InputStream"__id*E*C2
+0org.shiftone.jrat.inject.process.OpenInputStream"
+inputStream°­
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.java¬ ¬("
+
+%2long"java.io.InputStream#skip(J)J*
+
+%1java.io.InputStream*
+""2skip(J)"]
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.java¬ ¬(#
+"":
+""B42
+0org.shiftone.jrat.inject.process.OpenInputStream

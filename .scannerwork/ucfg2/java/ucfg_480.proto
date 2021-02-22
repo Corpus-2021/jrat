@@ -1,0 +1,28 @@
+
+@org.shiftone.jrat.test.dummy.CrashTestDummy#returnBooleanArg(Z)ZL
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javat t(#"1*„
+1L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javav v(…
+‚
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javav v($
+%0org.shiftone.jrat.util.log.Log"__id*
+""‹ˆ
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javav v(?
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*.,
+*public boolean returnBooleanArg(boolean b)2debug(Ljava/lang/Object;)Â
+¿
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaw w(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"V
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javay y(
+"":
+""B/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

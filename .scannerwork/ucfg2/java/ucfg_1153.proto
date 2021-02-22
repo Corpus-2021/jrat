@@ -1,0 +1,28 @@
+
+@org.shiftone.jrat.util.MethodWrapper#equals(Ljava/lang/Object;)ZE
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java" "("1*—
+1E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java#	 #(¦
+£
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java#	 #(
+%0java.lang.reflect.Method"__id*4*2&
+$org.shiftone.jrat.util.MethodWrapper"
+methodÞÛ
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java# #(7
+%1java.lang.reflect.Method"Jorg.shiftone.jrat.util.MethodWrapper#getMethod()Ljava/lang/reflect/Method;*
+
+objjava.lang.Object2getMethod()ïì
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java#	 #(8
+%2boolean"4java.lang.reflect.Method#equals(Ljava/lang/Object;)Z* 
+
+%0java.lang.reflect.Method* 
+
+%1java.lang.reflect.Method2equals(Ljava/lang/Object;)"O
+E
+;C:\q\jrat-0.6\src\org\shiftone\jrat\util\MethodWrapper.java# #(9
+"":
+objjava.lang.ObjectB(&
+$org.shiftone.jrat.util.MethodWrapper

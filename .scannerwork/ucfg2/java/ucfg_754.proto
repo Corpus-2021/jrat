@@ -1,0 +1,22 @@
+
+>org.shiftone.jrat.proxy.jdbc.ProxyStatement#getMoreResults(I)ZN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¢ ¢(!"1*¬
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¤ ¤(¹
+¶
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¤ ¤(
+%0java.sql.Statement"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+targetStatementÀ½
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¤ ¤(6
+%1boolean"%java.sql.Statement#getMoreResults(I)Z*
+
+%0java.sql.Statement*
+""2getMoreResults(I)"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¤ ¤(7
+"":
+""B/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

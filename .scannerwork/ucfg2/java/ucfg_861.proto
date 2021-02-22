@@ -1,0 +1,39 @@
+
+Rorg.shiftone.jrat.proxy.jdbc.ProxyConnection#createStatement()Ljava/sql/Statement;M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java` `($"1*‡
+1M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javab b(‡„
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javab b( 
+
+%0void"Eorg.shiftone.jrat.proxy.jdbc.ProxyConnection#log(Ljava/lang/String;)V*0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection*
+createStatement()2log(Ljava/lang/String;)»
+¸
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javad" d(2
+%1java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnection×Ô
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javad" d(D
+%2java.sql.Statement"9java.sql.Connection#createStatement()Ljava/sql/Statement;*
+
+%1java.sql.Connection2createStatement()²¯
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javad d(!1
+%3+org.shiftone.jrat.proxy.jdbc.ProxyStatement"+org.shiftone.jrat.proxy.jdbc.ProxyStatementÔ
+Ñ
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javad d(K
+%4"worg.shiftone.jrat.proxy.jdbc.ProxyStatement#<init>(Ljava/sql/Statement;Lorg/shiftone/jrat/proxy/jdbc/ProxyConnection;)V*3
+1
+%3+org.shiftone.jrat.proxy.jdbc.ProxyStatement*
+
+%2java.sql.Statement*0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"„
+M
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javad d(L3
+1
+%3+org.shiftone.jrat.proxy.jdbc.ProxyStatementB0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

@@ -1,0 +1,25 @@
+
+`org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getProperty(Ljava/lang/String;)Ljava/lang/String;Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaÊ Ê("1*˜
+1Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaÌ Ì(¼
+¹
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaÌ Ì(
+%0java.util.Properties"__id*B*@0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+
+properties‘Ž
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaÌ Ì(+
+%1java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*
+
+%0java.util.Properties*
+
+namejava.lang.String2getProperty(Ljava/lang/String;)"m
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaÌ Ì(,
+
+%1java.lang.String:
+namejava.lang.StringB20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

@@ -1,0 +1,20 @@
+
+Gorg.shiftone.jrat.proxy.jdbc.ProxyConnection#getTransactionIsolation()IO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÎ Î(&"1*¹
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÐ Ð(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÐ Ð(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnectionÇÄ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÐ Ð(9	
+%1int".java.sql.Connection#getTransactionIsolation()I*
+
+%0java.sql.Connection2getTransactionIsolation()"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÐ Ð(:
+""B0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<document title="JRat Desktop Screen Shots">
+
+
+	Here are a few screenshots of the JRat Desktop being used to view
+	generated output file.
+
+	<section title="The Tree Provider">
+		<a href="images/treeView.gif">
+			<figure src="images/treeViewThumb.gif"/>
+		</a>
+	</section>
+
+	<section title="The Rate Provider">
+		<a href="images/rateView.gif">
+			<figure src="images/rateViewThumb.gif"/>
+		</a>
+		<a href="images/rate2View.gif">
+			<figure src="images/rate2ViewThumb.gif"/>
+		</a>
+	</section>
+
+	<section title="The Stat Provider">
+		<a href="images/statView.gif">
+			<figure src="images/statViewThumb.gif"/>
+		</a>
+	</section>
+
+	<section title="The Log Provider">
+		<a href="images/logView.gif">
+			<figure src="images/logViewThumb.gif"/>
+		</a>
+	</section>
+
+
+
+
+</document>

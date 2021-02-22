@@ -1,0 +1,21 @@
+
+Horg.shiftone.jrat.proxy.jdbc.ProxyConnection#getTypeMap()Ljava/util/Map;O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÛ Û("1*Æ
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÝ Ý(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÝ Ý(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnectionÅÂ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÝ Ý(,
+%1java.util.Map"/java.sql.Connection#getTypeMap()Ljava/util/Map;*
+
+%0java.sql.Connection2getTypeMap()"h
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÝ Ý(-
+
+%1java.util.MapB0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

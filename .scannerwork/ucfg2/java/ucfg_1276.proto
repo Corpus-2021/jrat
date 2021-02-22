@@ -1,0 +1,67 @@
+
+?org.shiftone.jrat.provider.rate.ui.RateModel#getMaxDuration(I)IO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java„ „("6*§
+3O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java (§¤
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java$ (9	
+%3int"java.lang.Long#intValue()I*
+
+
+currentMaxjava.lang.Long2
+intValue()¡
+ž
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java (:	
+%4int"java.lang.Math#max(II)I*"
+java.lang.Math*
+""*
+	
+%3int*
+5*›
+4O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‹ ‹('¹¶
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‹ ‹(8(
+%1"org.shiftone.jrat.core.Accumulator"corg.shiftone.jrat.provider.rate.ui.RateModel#getAccumulator(II)Lorg/shiftone/jrat/core/Accumulator;*0.
+,org.shiftone.jrat.provider.rate.ui.RateModel*
+""*
+""2getAccumulator(II)íê
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‹ ‹(I
+%2java.lang.Long"Corg.shiftone.jrat.core.Accumulator#getMaxDuration()Ljava/lang/Long;**
+(
+%1"org.shiftone.jrat.core.Accumulator2getMaxDuration()
+
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‹ ‹(I
+
+currentMaxjava.lang.Long"__id*
+
+%2java.lang.Long*
+3
+5*Â
+5O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‰ ‰(ãà
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java‰ ‰(,	
+%0int">org.shiftone.jrat.provider.rate.ui.RateModel#getSampleCount()I*0.
+,org.shiftone.jrat.provider.rate.ui.RateModel2getSampleCount()*
+4
+1*Ú
+6O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java† †(
+}
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java† †(
+
+currentMaxjava.lang.Long"__id*
+""*
+5*¯
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java• •("Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java• •(
+"":
+""B0.
+,org.shiftone.jrat.provider.rate.ui.RateModel

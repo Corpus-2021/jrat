@@ -1,0 +1,28 @@
+
+9org.shiftone.jrat.ui.viewer.RuntimeOutputImpl#isZipped()ZN
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javae e("1*´
+1N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javag g(ª
+§
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javag9 g(=
+%0java.io.File"__id*;*9/
+-org.shiftone.jrat.ui.viewer.RuntimeOutputImpl"
+fileò
+ï
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javag% g(>
+%1java.lang.String"Lorg.shiftone.jrat.util.IOUtil#getExtention(Ljava/io/File;)Ljava/lang/String;*!"
+org.shiftone.jrat.util.IOUtil*
+
+%0java.io.Fileâß
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javag g(?
+%2boolean"6java.lang.String#equalsIgnoreCase(Ljava/lang/String;)Z*
+gz*
+
+%1java.lang.String2$equalsIgnoreCase(Ljava/lang/String;)"X
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.javag g(@
+""B1/
+-org.shiftone.jrat.ui.viewer.RuntimeOutputImpl

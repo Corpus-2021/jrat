@@ -1,0 +1,16 @@
+
+eorg.shiftone.jrat.provider.rate.ui.ControlPanel#getBoundedRangeModel()Ljavax/swing/BoundedRangeModel;P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\ControlPanel.javaR R(1"1*Ÿ
+1P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\ControlPanel.javaT T( Ì
+É
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\ControlPanel.javaT T( #
+%0javax.swing.BoundedRangeModel"__id*J*H1
+/org.shiftone.jrat.provider.rate.ui.ControlPanel"
+boundedRangeModel"y
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\ControlPanel.javaT T(!%
+#
+%0javax.swing.BoundedRangeModelB31
+/org.shiftone.jrat.provider.rate.ui.ControlPanel

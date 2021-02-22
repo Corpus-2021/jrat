@@ -1,0 +1,20 @@
+
+;org.shiftone.jrat.proxy.jdbc.ProxyStatement#getFetchSize()IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaß ß("1*š
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaá á(¹
+¶
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaá á(
+%0java.sql.Statement"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+targetStatement®«
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaá á(-	
+%1int""java.sql.Statement#getFetchSize()I*
+
+%0java.sql.Statement2getFetchSize()"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaá á(.
+""B/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

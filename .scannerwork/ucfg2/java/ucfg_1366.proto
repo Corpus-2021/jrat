@@ -1,0 +1,21 @@
+
+|org.shiftone.jrat.inject.criteria.InjectionCriteria#createExcludeMethod()Lorg/shiftone/jrat/inject/criteria/MethodCriterion;T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\inject\criteria\InjectionCriteria.java6 6(."1*·
+1T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\inject\criteria\InjectionCriteria.java8 8(ä
+á
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\inject\criteria\InjectionCriteria.java8 8(6
+%00org.shiftone.jrat.inject.criteria.MethodCriteria"__id*K*I5
+3org.shiftone.jrat.inject.criteria.InjectionCriteria"
+methodCriteriaàÝ
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\inject\criteria\InjectionCriteria.java8 8(47
+%11org.shiftone.jrat.inject.criteria.MethodCriterion"zorg.shiftone.jrat.inject.criteria.MethodCriteria#newNegativeCriterion()Lorg/shiftone/jrat/inject/criteria/MethodCriterion;*8
+6
+%00org.shiftone.jrat.inject.criteria.MethodCriteria2newNegativeCriterion()"‘
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\inject\criteria\InjectionCriteria.java8 8(59
+7
+%11org.shiftone.jrat.inject.criteria.MethodCriterionB75
+3org.shiftone.jrat.inject.criteria.InjectionCriteria

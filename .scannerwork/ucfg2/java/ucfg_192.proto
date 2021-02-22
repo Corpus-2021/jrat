@@ -1,0 +1,58 @@
+
+\org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getTargetDataSource()Ljavax/sql/XADataSource;O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaS& S(9"3*‹
+2O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaX X(6Á
+¾
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaX7 X(L
+%1java.lang.String"__id*M*K0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+targetDriverClassNameº
+·
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaXN X(X
+%2java.util.Properties"__id*B*@0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+
+propertiesé
+æ
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaX X(Y
+%3javax.sql.XADataSource"ˆorg.shiftone.jrat.proxy.jdbc.ProxyXADataSource#newXADataSourceInstance(Ljava/lang/String;Ljava/util/Properties;)Ljavax/sql/XADataSource;*2"0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource*
+
+%1java.lang.String*
+
+%2java.util.PropertiesÂ
+¿
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaX X(YF0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+targetDataSource"__id*
+
+%3javax.sql.XADataSource*
+1*¡
+3O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaV V(Â
+¿
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaV V(
+%0javax.sql.XADataSource"__id*H*F0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+targetDataSource*
+2
+1*Œ
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java\ \(Â
+¿
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java\ \(
+%4javax.sql.XADataSource"__id*H*F0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+targetDataSource"q
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java\ \( 
+
+%4javax.sql.XADataSourceB20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

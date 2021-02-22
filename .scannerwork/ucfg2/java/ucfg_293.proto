@@ -1,0 +1,23 @@
+
+Sorg.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode#children()Ljava/util/Enumeration;R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java= =("1*„
+1R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java? ?(¹
+¶
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java?' ?(0
+%0java.util.List"__id*D*B3
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode"
+	childListù
+ö
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java? ?(1
+%1java.util.Enumeration"Pjava.util.Collections#enumeration(Ljava/util/Collection;)Ljava/util/Enumeration;*"
+java.util.Collections*
+
+%0java.util.List"s
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java? ?(2
+
+%1java.util.EnumerationB53
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode

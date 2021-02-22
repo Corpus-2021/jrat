@@ -1,0 +1,52 @@
+
+jorg.shiftone.jrat.ui.viewer.xml.SimpleXmlOutputViewerFactory#endDocumentCreateViewer()Ljava/awt/Component;]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java% %(,"1*¸
+1]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java(+ ((/í
+ê
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java(+ ((/7
+%01org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode"__id*J*H>
+<org.shiftone.jrat.ui.viewer.xml.SimpleXmlOutputViewerFactory"
+rootŽ‹
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java(% ((*
+%1javax.swing.JTree"javax.swing.JTreeö
+ó
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java(! ((0
+%2"6javax.swing.JTree#<init>(Ljavax/swing/tree/TreeNode;)V*
+
+%1javax.swing.JTree*9
+7
+%01org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNodež
+›
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java( ((1
+treejavax.swing.JTree"__id*
+
+%1javax.swing.JTreeš—
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java)% )(0
+%3javax.swing.JScrollPane"javax.swing.JScrollPaneÝ
+Ú
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java)! )(6
+%4"5javax.swing.JScrollPane#<init>(Ljava/awt/Component;)V*
+
+%3javax.swing.JScrollPane*
+
+treejavax.swing.JTree°
+­
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java) )(7%
+
+scrollPanejavax.swing.JScrollPane"__id*
+
+%3javax.swing.JScrollPane"ˆ
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlOutputViewerFactory.java+ +('
+%
+
+scrollPanejavax.swing.JScrollPaneB@>
+<org.shiftone.jrat.ui.viewer.xml.SimpleXmlOutputViewerFactory

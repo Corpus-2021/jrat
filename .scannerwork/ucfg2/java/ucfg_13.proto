@@ -1,0 +1,23 @@
+
+Dorg.shiftone.jrat.provider.rate.ui.graph.MaxMemoryGraph#getValue(I)JX
+NC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MaxMemoryGraph.java- -("1*¡
+1X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MaxMemoryGraph.java/ /(ã
+à
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MaxMemoryGraph.java/ /(2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel"__id*J*H9
+7org.shiftone.jrat.provider.rate.ui.graph.MaxMemoryGraph"
+	rateModel÷ô
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MaxMemoryGraph.java/ /(,
+
+%1long"=org.shiftone.jrat.provider.rate.ui.RateModel#getMaxMemory(I)J*4
+2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel*
+""2getMaxMemory(I)"b
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MaxMemoryGraph.java/ /(-
+"":
+""B;9
+7org.shiftone.jrat.provider.rate.ui.graph.MaxMemoryGraph

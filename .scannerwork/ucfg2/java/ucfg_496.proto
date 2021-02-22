@@ -1,0 +1,92 @@
+
+Torg.shiftone.jrat.test.dummy.CrashTestDummy#localVariableLength(Ljava/lang/String;)IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java· ·(""1*À
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„0 „(>£
+†
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„0 „(E
+%0java.lang.String"__concat*
+THis is arg0*
+
+arg0java.lang.StringâÜ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„# „(/
+%1java.lang.StringBuffer"java.lang.StringBuffer«
+ƒ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„ „(F
+%2"2java.lang.StringBuffer#<init>(Ljava/lang/String;)V*
+
+%1java.lang.StringBuffer*
+
+%0java.lang.Stringú
+ô
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„ „(G!
+sBufferjava.lang.StringBuffer"__id*
+
+%1java.lang.StringBufferá
+Ñ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÊ Ê($
+%3org.shiftone.jrat.util.log.Log"__id*
+""Çˇ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÊ Ê(
+
+%4void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%3org.shiftone.jrat.util.log.Log*#
+!
+sBufferjava.lang.StringBuffer2debug(Ljava/lang/Object;)—
+Œ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaË Ë(	
+%5int"4org.shiftone.jrat.test.dummy.CrashTestDummy#add(II)I*/-
++org.shiftone.jrat.test.dummy.CrashTestDummy*2D*2.çä
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÍ Í($
+%6java.lang.StringBuffer"Ijava.lang.StringBuffer#append(Ljava/lang/String;)Ljava/lang/StringBuffer;*#
+!
+sBufferjava.lang.StringBuffer*
+
+this is it2append(Ljava/lang/String;) «
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÎ Î(&
+
+%7void")java.lang.StringBuffer#ensureCapacity(I)V*#
+!
+sBufferjava.lang.StringBuffer*
+""2ensureCapacity(I)ÈÊ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÌ Ì(#
+
+%8long";org.shiftone.jrat.test.dummy.CrashTestDummy#twoLongArg(JJ)J*/-
++org.shiftone.jrat.test.dummy.CrashTestDummy*2*22twoLongArg(JJ)—
+Œ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÓ$ Ó(/	
+%9int"4org.shiftone.jrat.test.dummy.CrashTestDummy#add(II)I*/-
++org.shiftone.jrat.test.dummy.CrashTestDummy*2<*2°û
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÚ Ú((
+
+%10int"java.lang.String#length()I*
+
+arg0java.lang.String2length()‹
+Ÿ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÚ Ú()
+
+%11int"4org.shiftone.jrat.test.dummy.CrashTestDummy#add(II)I*/-
++org.shiftone.jrat.test.dummy.CrashTestDummy*
+""*
+
+
+%10int"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÚ Ú(*
+"":
+arg0java.lang.StringB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

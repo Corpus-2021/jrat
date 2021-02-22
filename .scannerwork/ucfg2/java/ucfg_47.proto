@@ -1,0 +1,25 @@
+
+[org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement#getBigDecimal(II)Ljava/math/BigDecimal;T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javai i(#"1*¬
+1T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javal l(&×
+Ô
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javal l(& 
+%0java.sql.CallableStatement"__id*T*R5
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement"
+targetCallableStatement€ý
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javal l(K
+%1java.math.BigDecimal"Bjava.sql.CallableStatement#getBigDecimal(II)Ljava/math/BigDecimal;*"
+ 
+%0java.sql.CallableStatement*
+""*
+""2getBigDecimal(II)"t
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javal l(L
+
+%1java.math.BigDecimal:
+"":
+""B75
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement

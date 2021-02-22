@@ -1,0 +1,89 @@
+
+Åorg.shiftone.jrat.provider.tree.StackNode#getChild(Lorg/shiftone/jrat/core/MethodKey;)Lorg/shiftone/jrat/provider/tree/StackNode;J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java@ @("4*—	
+2J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaJ) J(2´®
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaJ J((/
+%3)org.shiftone.jrat.provider.tree.StackNode")org.shiftone.jrat.provider.tree.StackNodeÎ
+Ë
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaJ J(9
+%4"Äorg.shiftone.jrat.provider.tree.StackNode#<init>(Lorg/shiftone/jrat/core/MethodKey;Lorg/shiftone/jrat/provider/tree/StackNode;)V*1
+/
+%3)org.shiftone.jrat.provider.tree.StackNode*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*-+
+)org.shiftone.jrat.provider.tree.StackNodeø
+º
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaJ J(95
+treeNode)org.shiftone.jrat.provider.tree.StackNode"__id*1
+/
+%3)org.shiftone.jrat.provider.tree.StackNodeß
+§
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaL L(
+%5java.util.Map"__id*;*9+
+)org.shiftone.jrat.provider.tree.StackNode"
+
+childrenÚ
+Ô
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaL L(1
+%6java.lang.Object"__mapSet*
+
+%5java.util.Map*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*7
+5
+treeNode)org.shiftone.jrat.provider.tree.StackNode*
+1*Ê
+3J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaF# F(+ß
+§
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaF# F(+
+%1java.util.Map"__id*;*9+
+)org.shiftone.jrat.provider.tree.StackNode"
+
+childrenπ
+∂
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaF# F(:
+%2java.lang.Object"__mapGet*
+
+%1java.util.Map*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey¶
+£
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaF F(:5
+treeNode)org.shiftone.jrat.provider.tree.StackNode"__id*
+
+%2java.lang.Object*
+2
+1*ï
+4J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaB B(!î
+ë
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaB B("5
+treeNode)org.shiftone.jrat.provider.tree.StackNode"__id*
+""ß
+§
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaD D(
+%0java.util.Map"__id*;*9+
+)org.shiftone.jrat.provider.tree.StackNode"
+
+children*
+3*◊
+1J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaR R("Ö
+J
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaR R(7
+5
+treeNode)org.shiftone.jrat.provider.tree.StackNode:-
+	methodKey org.shiftone.jrat.core.MethodKeyB-+
+)org.shiftone.jrat.provider.tree.StackNode

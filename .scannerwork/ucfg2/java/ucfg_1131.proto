@@ -1,0 +1,51 @@
+
+borg.shiftone.jrat.util.SavedProperties#put(Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javau u(""1*è	
+1G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javaw w(Û
+
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javaw w((
+
+%0void"Rorg.shiftone.jrat.util.Assert#assertNotNull(Ljava/lang/String;Ljava/lang/Object;)V*!"
+org.shiftone.jrat.util.Assert*
+key*
+
+keyjava.lang.Object˜
+Ù
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javax x(,
+
+%1void"Rorg.shiftone.jrat.util.Assert#assertNotNull(Ljava/lang/String;Ljava/lang/Object;)V*!"
+org.shiftone.jrat.util.Assert*	
+value*
+
+valuejava.lang.ObjectÆ
+´
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javaz z((
+%2java.lang.Object"__mapSet*
+""*
+
+keyjava.lang.Object*
+
+valuejava.lang.ObjectÉ
+Ä
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.javaz z()
+ojava.lang.Object"__id*
+
+%2java.lang.Objectµ
+≤
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.java| |(
+
+%3void"/org.shiftone.jrat.util.SavedProperties#store()V**(
+&org.shiftone.jrat.util.SavedProperties"b
+G
+=C:\q\jrat-0.6\src\org\shiftone\jrat\util\SavedProperties.java~ ~(
+
+ojava.lang.Object:
+keyjava.lang.Object:
+valuejava.lang.ObjectB*(
+&org.shiftone.jrat.util.SavedProperties

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+    <classpathentry kind="src" path="src"/>
+    <classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+    <classpathentry kind="src" path="/aop"/>
+    <classpathentry kind="lib" path="lib/bcel.jar"/>
+    <classpathentry kind="lib" path="lib/junit.jar"/>
+    <classpathentry kind="lib" path="Z:/Programs/java/j2sdk1.4.2/lib/tools.jar"/>
+    <classpathentry kind="lib" path="Z:/Programs/apache-ant-1.5.4/lib/ant.jar"/>
+    <classpathentry kind="lib" path="lib/shiftone-arbor.jar"/>
+    <classpathentry kind="lib" path="config"/>
+    <classpathentry kind="output" path="bin"/>
+</classpath>

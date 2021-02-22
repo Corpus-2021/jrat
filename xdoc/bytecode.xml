@@ -1,0 +1,224 @@
+<?xml version="1.0"?>
+<document title="JRat Bytecode Instrumentation">
+
+
+
+	<section-group>
+
+		<figure src="images/bcel-logo.gif"/>
+
+		<section title="How does bytecode instrumentation work?">
+			Each method being instrumented is renamed and made private and final.
+			A new method is added that has the exact same name and signature as
+			the original method (the one you wrote).  This new method wraps calls
+			to your	method with calls to an event handler.
+		</section>
+
+		<section title="Why do you create new methods?">
+			It is possible to instrument the existing method rather than simply
+			create a new wrapper method, however doing so creates several complex
+			problems.
+			<ul>
+			<li>ensure that the finish event gets called at each of the method's exit points</li>
+			<li>ensure that the error event only gets called when an exception is being thrown from the method</li>
+			<li>preserve the line number table for debugging</li>
+			<li>not break the existing code</li>
+			</ul>
+			<p/>
+			While these problems are all solvable, it is not clear that method inlining would provide
+			a significant benefit that would justify the effort.  Also, while there is no plan to
+			implement this feature it is possible to un-instrument code.
+		</section>
+		<section title="Why use instrumentation?">
+			Bytecode instrumentation seems to add the least overhead to a Java programs execution.
+		</section>
+		<section title="Why do this at build time?">
+
+            The output of JRat is valid Java bytecode.
+            This means it has a very high likelihood of working on any compliant JVM, and basically any environment.
+            It requires no native code (unlike JVMPI).
+            It does not need to replace a class loader, which is not possible in many environments (J2EE).
+
+		</section>
+		<section title="Why not use JVMPI?">
+
+			<p>
+			The short answer is that is that the current goals of JRat can be
+			accomplished with pure Java and without the JVMPI.
+
+			There are however two reasons that the JVMPI may be used in the future.
+			</p>
+			<ol>
+			<li>
+			The JVMPI can be used to intercept classes being loaded at runtime, and to instrument them.
+			This feature will allow	users to skip the instrumentation step.
+            		This is how many commercial profilers work.
+            		For now however, it is a very low priority.
+			</li>
+			<li>
+			Also, JVMPI can be used to obtain more information about the VM than instrumented code can.
+			This includes details of object creation, garbage collection and memory usage (all good things).
+			For now however the core focus of JRat is to profile method invocations.
+			</li>
+			</ol>
+			<a href="http://java.sun.com/j2se/1.4.1/docs/guide/jvmpi/jvmpi.html">JVMPI</a>
+
+		</section>
+        <section title="How do I instrumentation my Java program?">
+            <p>
+            There are three ways to instrument your classes and JAR files.  You can use a command
+            line tool, a GUI application (JRat Desktop) or an Apache Ant task (one of which extends
+            the built in <a href="http://ant.apache.org/manual/CoreTasks/copy.html">copy</a> task).
+            </p>
+            <p>Look familiar?  Good.</p>
+            <code>
+&lt;taskdef name="injectCopy"
+    classname="org.shiftone.jrat.inject.ant.InjectCopyTask"/&gt;
+
+&lt;injectCopy todir="injected-classes" verbose="true"&gt;
+    &lt;fileset dir="naked-classes"/&gt;
+&lt;/injectCopy&gt;</code>
+            <p>
+                A good first step is to read over <a href="quickstart.html">The JRat Quick Start Guide</a>.
+            </p>
+	</section>
+        <section title="Will instrumentation have any effect on serialization?">
+            <p>
+            As the Injector instruments class files, a static initializer is added in cases
+            where one doesn't exist.  This would typically throw off the runtime calculation of
+            the classes serialVersionUID.  To allow pre-instrumented serialized classes to be
+            deserialized after instrumentation, the Injector also calculates the pre-instrumented
+            serialVersionUID and adds it to classes where it doesn't exist.
+            </p>
+            <p>
+            The answer is, serialization is expected to work and has been tested.  If you have problems,
+            please report them.
+            </p>
+	</section>
+
+        <section title="Has this been tested on any large applications?">
+            Sure.  JBoss 3.0 and WebLogic Server 6.1  are favorite test cases.
+            Output of the StatMethodHandler's run on WLS is available
+            <a href="http://www.shiftone.org/projects/jrat/jrat_stat_output.txt">here</a>.
+            It's actually a little too big to be useful, but a good test nonetheless.
+            When uncalled methods are omitted, this handler produces about 2.2 megabytes of data.
+            The screenshot on the home page is of the output of the tree handler when profiling JBoss.
+	</section>
+
+        <section title="Can I instrument a signed jar and expect it to still work?">
+            Nope.  You need to remove the manifest from the signed JAR.  In the future,
+            JRat may do this for you.
+        </section>
+
+        <section title="Will instrumentation effect the performance of my program?">
+            <p>
+            Yes.  You cannot observe something without changing it in the process.  The amount
+            of performance degradation will depend largely on two things.
+            </p>
+            <p>
+            First, it will depend on the "MethodHandler" used.  A handler that doesn't do very much will
+            be very fast.  If it's complex and slow, it will be slow.  Keep this in mind if and when you
+            write custom handlers.
+            </p>
+            <p>
+            Second, it will depend on how many classes/methods you instrument, and number of invocations
+            that are made to those methods.  JRat intercepts method entries and exists, so a single
+            large method will probably not be effected very significantly.  A method that does a recursive
+            sort however may be effected more because there are more entry/exit events being fired.  Avoid
+            instrumenting bytecode that you know performs well and gets called a lot (unless you want to
+            profile Log4J, don't inject it).
+            </p>
+            <br/>
+            <p>
+            That said, one of the initial test cases for JRat was to execute a recursive method that
+            had been instrumented.  The method is shown below.
+            </p>
+<code>private int recurse(int x)
+{
+    if (x == 0)
+    {
+        return 0;
+    }
+    else
+    {
+        return x + (recurse(x - 1));
+    }
+}</code>
+
+            <p>
+            When this method was executed with 1000 as a parameter, it creates some 2000 entry/exit events that are processed by the tree handler.
+            When run with 1000 as a parameter, it returns in 0 ms (yes, I know it took more than no time).
+            When run with 1500 or 2000 as a parameter, it returns in 10 ms.
+            This initial test suggests that JRat adds less than 1/100th of a second of overhead to each method call.
+            </p>
+
+
+
+	</section>
+        <section title="What is actually being added?">
+            <p>
+            If you really must ask...
+            </p>
+<code>
+public class MyMath {
+
+  public int max(int a, int b) {
+    return (a > b) ? a : b;
+  }
+
+}
+</code>
+
+<code>
+public class MyMath {
+
+  static final MethodHandler HANDLER_FOR_max_0 =
+    HandlerFactory.getMethodHandler(
+    			"org.package.MyMath",
+    			"max", "(II)I");
+
+  private final int max__shiftone_JRat(int a, int b) {
+    return (a > b) ? a : b;
+  }
+
+  public int max(int a, int b) {
+
+    long    start   = 0L;
+    Object  args[]  = null;
+    boolean success = false;
+
+    try {
+
+      HANDLER_FOR_max_0.onMethodStart(this, args);
+      start      = System.currentTimeMillis();
+      int result = max__shiftone_JRat(a,b); 	// BANG
+      success    = true;
+      return result;
+
+    } catch(Throwable t) {
+
+      HANDLER_FOR_max_0.onMethodError(this, args, t);
+      throw t;
+
+    } finally {
+
+      HANDLER_FOR_max_0.onMethodFinish(this,
+        args, null,
+        System.currentTimeMillis() - start,
+        success);
+
+    }
+  }
+
+}
+</code>
+	</section>
+	<section title="How do you go about twiddling Java bytecode?">
+            JRat uses a library called <a href="http://jakarta.apache.org/bcel/">BCEL</a>.
+            It's powerful, mature, and available from Apache.
+        </section>
+	</section-group>
+
+
+
+</document>

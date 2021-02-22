@@ -1,0 +1,25 @@
+
+8org.shiftone.jrat.inject.process.OpenInputStream#read()IQ
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javam m("1*ƒ
+1Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javap p(æã
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javap p(
+
+%0void">org.shiftone.jrat.inject.process.OpenInputStream#assertOpen()V*42
+0org.shiftone.jrat.inject.process.OpenInputStream2assertOpen()¾
+»
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javar r(
+%1java.io.InputStream"__id*E*C2
+0org.shiftone.jrat.inject.process.OpenInputStream"
+inputStream£ 
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javar r(!	
+%2int"java.io.InputStream#read()I*
+
+%1java.io.InputStream2read()"[
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javar r("
+""B42
+0org.shiftone.jrat.inject.process.OpenInputStream

@@ -1,0 +1,213 @@
+
+5org.shiftone.jrat.test.InjectorTestCase#testNoArgs()VH
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaI I("6*¼
+2H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.java\ \(ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.java\4 \(A
+%36$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.java\C \(Q
+%37$Array"$Arrayš
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.java\ \(R
+%38java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+throwRuntimeException*
+
+%36$Array*
+
+%37$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)*
+0*·
+5H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaX X(ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaX/ X(<
+%33$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaX> X(L
+%34$Array"$Array˜•
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaX X(M
+%35java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+throwIOException*
+
+%33$Array*
+
+%34$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)*
+2*û4
+6H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaK K(b`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaK! K(.
+%0$Array"$Arrayb`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaK0 K(>
+%1$Array"$Array‹ˆ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaK K(?
+%2java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+
+noArgs*
+
+%0$Array*
+
+%1$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)b`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaL- L(:
+%3$Array"$Arrayb`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaL< L(J
+%4$Array"$Array—”
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaL L(K
+%5java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+noArgsSynchronized*
+
+%3$Array*
+
+%4$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)b`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaM' M(4
+%6$Array"$Arrayb`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaM6 M(D
+%7$Array"$Array‘Ž
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaM M(E
+%8java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+noArgsStatic*
+
+%6$Array*
+
+%7$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)b`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaN" N(/
+%9$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaN1 N(?
+%10$Array"$ArrayŽ‹
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaN N(@
+%11java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*	
+callAdd*
+
+%9$Array*
+
+%10$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaO& O(3
+%12$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaO5 O(C
+%13$Array"$Array“
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaO O(D
+%14java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callRecurse*
+
+%12$Array*
+
+%13$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaP& P(3
+%15$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaP5 P(C
+%16$Array"$Array“
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaP P(D
+%17java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callRecurse*
+
+%15$Array*
+
+%16$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaQ* Q(7
+%18$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaQ9 Q(G
+%19$Array"$Array—”
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaQ Q(H
+%20java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callInLoop_1000*
+
+%18$Array*
+
+%19$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaR+ R(8
+%21$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaR: R(H
+%22$Array"$Array˜•
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaR R(I
+%23java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callInLoop_10000*
+
+%21$Array*
+
+%22$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaS+ S(8
+%24$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaS: S(H
+%25$Array"$Array˜•
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaS S(I
+%26java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callInLoop_50000*
+
+%24$Array*
+
+%25$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaT, T(9
+%27$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaT; T(I
+%28$Array"$Array™–
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaT T(J
+%29java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callInLoop_100000*
+
+%27$Array*
+
+%28$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)ca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaU- U(:
+%30$Array"$Arrayca
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaU< U(J
+%31$Array"$Arrayš—
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.javaU U(K
+%32java.lang.Object"org.shiftone.jrat.test.InjectorTestCase#testMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)Ljava/lang/Object;*+)
+'org.shiftone.jrat.test.InjectorTestCase*
+callInLoop_1000000*
+
+%30$Array*
+
+%31$Array2GtestMethodCall(Ljava/lang/String;[Ljava/lang/Class;[Ljava/lang/Object;)*
+5*f
+0 "_
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\test\InjectorTestCase.java^ ^(
+implicit returnB+)
+'org.shiftone.jrat.test.InjectorTestCase

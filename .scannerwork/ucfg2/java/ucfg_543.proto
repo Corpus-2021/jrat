@@ -1,0 +1,31 @@
+
+;org.shiftone.jrat.util.Percent#toString()Ljava/lang/String;A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java— —("2*ó
+2A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java™ ™(&¥
+¢
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java™ ™(&
+%0java.text.DecimalFormat"__id*8*6 
+org.shiftone.jrat.util.Percent"
+pctDecimalFormat*
+1*–
+1A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java› ›(#¥
+¢
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java› ›(#
+%1java.text.DecimalFormat"__id*8*6 
+org.shiftone.jrat.util.Percent"
+pctDecimalFormatÆÃ
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java› ›(1
+%2java.lang.String"2java.text.NumberFormat#format(D)Ljava/lang/String;*
+
+%1java.text.DecimalFormat*
+""2	format(D)"]
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java› ›(2
+
+%2java.lang.StringB" 
+org.shiftone.jrat.util.Percent

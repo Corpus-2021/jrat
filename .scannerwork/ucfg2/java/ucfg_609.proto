@@ -1,0 +1,37 @@
+
+Xorg.shiftone.jrat.ui.util.ColorComparator#compare(Ljava/lang/Object;Ljava/lang/Object;)IC
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javaa a("1*á
+1C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javac c(}
+{
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javac c(
+c1java.awt.Color"__id*
+
+o1java.lang.Object}
+{
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javad d(
+c2java.awt.Color"__id*
+
+o2java.lang.Objectã
+à
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javaf f(	
+%0int"Gorg.shiftone.jrat.ui.util.ColorComparator#colorValue(Ljava/awt/Color;)I*-+
+)org.shiftone.jrat.ui.util.ColorComparator*
+
+c1java.awt.Colorã
+à
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javaf  f(.	
+%1int"Gorg.shiftone.jrat.ui.util.ColorComparator#colorValue(Ljava/awt/Color;)I*-+
+)org.shiftone.jrat.ui.util.ColorComparator*
+
+c2java.awt.Color"M
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javaf f(/
+"":
+o1java.lang.Object:
+o2java.lang.ObjectB-+
+)org.shiftone.jrat.ui.util.ColorComparator

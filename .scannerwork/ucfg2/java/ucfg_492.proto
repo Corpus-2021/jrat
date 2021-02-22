@@ -1,0 +1,36 @@
+
+^org.shiftone.jrat.test.dummy.CrashTestDummy#argsByteBooleanArrayObject(B[ZLjava/lang/Object;)IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java¥ ¥()"1*Ò
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java§ §(‡
+„
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java§ §($
+%0org.shiftone.jrat.util.log.Log"__id*
+""«¨
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java§ §(]
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*LJ
+Hpublic int argsLongObjectLongLongArg(long a, Object obj, long b, long c)2debug(Ljava/lang/Object;)Ä
+Á
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java¨ ¨(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy£ 
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaª ª(!	
+%3int"java.lang.Object#hashCode()I*
+
+objjava.lang.Object2
+hashCode()"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaª ª(0
+"":
+"":
+"":
+objjava.lang.ObjectB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

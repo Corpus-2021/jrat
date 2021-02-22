@@ -1,0 +1,20 @@
+
+[org.shiftone.jrat.proxy.MethInvocationHandler#returnsInterface(Ljava/lang/reflect/Method;)ZN
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaI! I(1"1*¹
+1N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaK K(ÜÙ
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaK K(&
+%0java.lang.Class"9java.lang.reflect.Method#getReturnType()Ljava/lang/Class;*$
+"
+methodjava.lang.reflect.Method2getReturnType()ª§
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaK K(4
+%1boolean"java.lang.Class#isInterface()Z*
+
+%0java.lang.Class2isInterface()"X
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaK K(6
+"":"
+methodjava.lang.reflect.MethodB1"/
+-org.shiftone.jrat.proxy.MethInvocationHandler

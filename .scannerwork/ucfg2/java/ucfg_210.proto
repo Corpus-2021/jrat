@@ -1,0 +1,23 @@
+
+\org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getExplicitCachingEnabled()Ljava/lang/String;Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaê ê(+"1*ò
+1Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaí í(º
+π
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaí í(
+%0java.util.Properties"__id*B*@0
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource"
+
+propertiesëé
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaí í(?
+%1java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*
+
+%0java.util.Properties*
+explicitCachingEnabled2getProperty(Ljava/lang/String;)"m
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaí í(@
+
+%1java.lang.StringB20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

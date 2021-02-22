@@ -1,0 +1,66 @@
+
+^org.shiftone.jrat.provider.stats.StatComparator#compare(Ljava/lang/Object;Ljava/lang/Object;)IP
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java ("3*
+2P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java% %(éæ
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java% %(2
+
+%3long"3org.shiftone.jrat.core.Accumulator#getTotalExits()J*@
+>
+handlerA2org.shiftone.jrat.provider.stats.StatMethodHandler2getTotalExits()éæ
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java%5 %(M
+
+%4long"3org.shiftone.jrat.core.Accumulator#getTotalExits()J*@
+>
+handlerB2org.shiftone.jrat.provider.stats.StatMethodHandler2getTotalExits()Ú
+×
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java% %(N	
+%5int";org.shiftone.jrat.provider.stats.StatComparator#convert(J)I*3"1
+/org.shiftone.jrat.provider.stats.StatComparator*
+""*
+1*Œ	
+3P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java9 (:´
+±
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java (;>
+handlerA2org.shiftone.jrat.provider.stats.StatMethodHandler"__id*
+
+ajava.lang.Object´
+±
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java (;>
+handlerB2org.shiftone.jrat.provider.stats.StatMethodHandler"__id*
+
+bjava.lang.Objectïì
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java! !(1
+
+%0long"6org.shiftone.jrat.core.Accumulator#getTotalDuration()J*@
+>
+handlerA2org.shiftone.jrat.provider.stats.StatMethodHandler2getTotalDuration()ïì
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java!4 !(O
+
+%1long"6org.shiftone.jrat.core.Accumulator#getTotalDuration()J*@
+>
+handlerB2org.shiftone.jrat.provider.stats.StatMethodHandler2getTotalDuration()Ú
+×
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java! !(P	
+%2int";org.shiftone.jrat.provider.stats.StatComparator#convert(J)I*3"1
+/org.shiftone.jrat.provider.stats.StatComparator*
+""*
+2
+1*±
+1P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java( (("Z
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatComparator.java( ((
+"":
+ajava.lang.Object:
+bjava.lang.ObjectB31
+/org.shiftone.jrat.provider.stats.StatComparator

@@ -1,0 +1,18 @@
+
+corg.shiftone.jrat.core.RuntimeContextImpl#newOutputStream(Ljava/lang/String;)Ljava/io/OutputStream;L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaÃ Ã('"1*’
+1L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaÆ Æ(ÐÍ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaÆ Æ(/
+%0java.io.OutputStream"dorg.shiftone.jrat.core.RuntimeContextImpl#newOutputStream(Ljava/lang/String;Z)Ljava/io/OutputStream;*-+
+)org.shiftone.jrat.core.RuntimeContextImpl*
+
+fileNamejava.lang.String*
+""2$newOutputStream(Ljava/lang/String;Z)"l
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\core\RuntimeContextImpl.javaÆ Æ(0
+
+%0java.io.OutputStream:
+fileNamejava.lang.StringB-+
+)org.shiftone.jrat.core.RuntimeContextImpl

@@ -1,0 +1,7 @@
+organization=unne-sonar-corpus
+projectKey=unne.sonar:jrat
+serverUrl=https://sonarcloud.io
+serverVersion=8.0.0.447
+dashboardUrl=https://sonarcloud.io/dashboard?id=unne.sonar%3Ajrat
+ceTaskId=AWzwjvrpjXR3-yuGz9Qn
+ceTaskUrl=https://sonarcloud.io/api/ce/task?id=AWzwjvrpjXR3-yuGz9Qn

@@ -1,0 +1,209 @@
+
+Uorg.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer#nodeText()Ljava/lang/String;Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javat t("10*â
+2[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä ä(%Æ
+´
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä ä(-
+%19java.lang.String"__concat* 
+
+
+methodNamejava.lang.String*
+ - ⁄
+◊
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä0 ä(@
+%20java.text.DecimalFormat"__id*R*P:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+pctDecimalFormat‚ﬂ
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä0 ä(L
+%21java.lang.String"2java.text.NumberFormat#format(D)Ljava/lang/String;* 
+
+%20java.text.DecimalFormat*
+""2	format(D)π
+∂
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä ä(L
+%22java.lang.String"__concat*
+
+%19java.lang.String*
+
+%21java.lang.String"x
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaä ä(M
+
+%22java.lang.String*Î
+3[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÜ Ü(%Î
+Ë
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÜ Ü(%7
+%170org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNodeíè
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÜ Ü(?
+%18double"Korg.shiftone.jrat.provider.tree.ui.StackTreeNode#getPctOfAvgRootDuration()D*9
+7
+%170org.shiftone.jrat.provider.tree.ui.StackTreeNode2getPctOfAvgRootDuration()*
+2
+1*ü
+4\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇ Ç(â¿
+Ω
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇ Ç(â
+%16java.lang.String"__concat* 
+
+
+methodNamejava.lang.String*
+
+%9java.lang.String"y
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇ Ç(ä
+
+%16java.lang.String*¢
+5[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇJ Ç(OŸ
+÷
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇR Ç(a
+%12java.text.DecimalFormat"__id*Q*O:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+msDecimalFormatÎ
+Ë
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇi Ç(q7
+%130org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNodeîë
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇi Ç(Ü
+%14java.lang.Float"Horg.shiftone.jrat.core.Accumulator#getAverageDuration()Ljava/lang/Float;*9
+7
+%130org.shiftone.jrat.provider.tree.ui.StackTreeNode2getAverageDuration()ëé
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇR Ç(á
+%15java.lang.String"=java.text.Format#format(Ljava/lang/Object;)Ljava/lang/String;* 
+
+%12java.text.DecimalFormat*
+
+%14java.lang.Float2format(Ljava/lang/Object;)®
+•
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇJ Ç(á
+%11java.lang.String"__concat*
+ - *
+
+%15java.lang.Stringö
+ó
+\
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇJ Ç(á
+%9java.lang.String"__id*
+
+%11java.lang.String*
+4*Å
+6[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇ5 Ç(Fô
+ñ
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÇ5 Ç(F
+%9java.lang.String"__id*
+
+%10java.lang.String*
+4*É
+7[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÄ Ä($Í
+Á
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÄ Ä($6
+%70org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNodeëé
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÄ Ä(9
+%8java.lang.Float"Horg.shiftone.jrat.core.Accumulator#getAverageDuration()Ljava/lang/Float;*8
+6
+%70org.shiftone.jrat.provider.tree.ui.StackTreeNode2getAverageDuration()ó
+î
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaÄ Ä(:
+avgjava.lang.Float"__id*
+
+%8java.lang.Float*
+5
+6*ä
+8Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java|  |((Ë
+Â
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java|  |((6
+%20org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNode¨©
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java|  |(7&
+%3 org.shiftone.jrat.core.MethodKey"Zorg.shiftone.jrat.provider.tree.StackNode#getMethodKey()Lorg/shiftone/jrat/core/MethodKey;*8
+6
+%20org.shiftone.jrat.provider.tree.ui.StackTreeNode2getMethodKey()ıÚ
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java|  |(G
+%4java.lang.String"Borg.shiftone.jrat.core.MethodKey#getMethodName()Ljava/lang/String;*(
+&
+%3 org.shiftone.jrat.core.MethodKey2getMethodName()û
+õ
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java| |(H
+
+methodNamejava.lang.String"__id*
+
+%4java.lang.StringË
+Â
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java~ ~(6
+%50org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNodeÉÄ
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.java~ ~(,
+%6boolean"Eorg.shiftone.jrat.provider.tree.ui.StackTreeNode#isChildOfRootNode()Z*8
+6
+%50org.shiftone.jrat.provider.tree.ui.StackTreeNode2isChildOfRootNode()*
+3
+7*≈
+9Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javax x("e
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javax x(
+Root*√
+10Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javav v(Ë
+Â
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javav v(6
+%00org.shiftone.jrat.provider.tree.ui.StackTreeNode"__id*J*H:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer"
+
+treeNodeÓÎ
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javav v(!
+%1boolean"7org.shiftone.jrat.provider.tree.StackNode#isRootNode()Z*8
+6
+%00org.shiftone.jrat.provider.tree.ui.StackTreeNode2isRootNode()*
+8
+9*·
+1[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaé é(%"
+[
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeCellRenderer.javaé é(& 
+
+
+methodNamejava.lang.StringB<:
+8org.shiftone.jrat.provider.tree.ui.StackTreeCellRenderer

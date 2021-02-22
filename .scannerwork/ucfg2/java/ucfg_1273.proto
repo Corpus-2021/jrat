@@ -1,0 +1,23 @@
+
+corg.shiftone.jrat.provider.rate.ui.RateModel#getAccumulator(II)Lorg/shiftone/jrat/core/Accumulator;O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaÝ Ý(%"1*Ý
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaß ß(ÅÂ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaß ß(&8
+%02org.shiftone.jrat.provider.rate.ui.RateModelSample"morg.shiftone.jrat.provider.rate.ui.RateModel#getSample(I)Lorg/shiftone/jrat/provider/rate/ui/RateModelSample;*0.
+,org.shiftone.jrat.provider.rate.ui.RateModel*
+""2getSample(I)¿¼
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaß ß(C(
+%1"org.shiftone.jrat.core.Accumulator"horg.shiftone.jrat.provider.rate.ui.RateModelSample#getAccumulator(I)Lorg/shiftone/jrat/core/Accumulator;*:
+8
+%02org.shiftone.jrat.provider.rate.ui.RateModelSample*
+""2getAccumulator(I)"}
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaß ß(D*
+(
+%1"org.shiftone.jrat.core.Accumulator:
+"":
+""B0.
+,org.shiftone.jrat.provider.rate.ui.RateModel

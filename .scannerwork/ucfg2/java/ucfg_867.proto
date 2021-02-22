@@ -1,0 +1,21 @@
+
+Uorg.shiftone.jrat.proxy.jdbc.ProxyConnection#getMetaData()Ljava/sql/DatabaseMetaData;O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÁ Á('"1*ì
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÃ Ã(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÃ Ã(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnectionßÜ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÃ Ã(-
+%1java.sql.DatabaseMetaData"<java.sql.Connection#getMetaData()Ljava/sql/DatabaseMetaData;*
+
+%0java.sql.Connection2getMetaData()"t
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaÃ Ã(.!
+
+%1java.sql.DatabaseMetaDataB0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

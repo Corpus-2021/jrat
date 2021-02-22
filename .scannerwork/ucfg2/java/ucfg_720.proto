@@ -1,0 +1,45 @@
+
+Rorg.shiftone.jrat.provider.log.io.message.ErrorMessage#getText()Ljava/lang/String;W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java- -("1*é
+1W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /(Ê
+Ç
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /((
+%0java.lang.String"__id*N*L8
+6org.shiftone.jrat.provider.log.io.message.ErrorMessage"
+errorClassName¤
+¡
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /((
+%1java.lang.String"__concat*
+
+threw *
+
+%0java.lang.String¡
+ž
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /(0
+%2java.lang.String"__concat*
+
+%1java.lang.String*
+ : È
+Å
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/3 /(?
+%3java.lang.String"__id*L*J8
+6org.shiftone.jrat.provider.log.io.message.ErrorMessage"
+errorMessage²
+¯
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /(?
+%4java.lang.String"__concat*
+
+%2java.lang.String*
+
+%3java.lang.String"s
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\message\ErrorMessage.java/ /(@
+
+%4java.lang.StringB:8
+6org.shiftone.jrat.provider.log.io.message.ErrorMessage

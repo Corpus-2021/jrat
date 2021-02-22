@@ -1,0 +1,16 @@
+
+forg.shiftone.jrat.provider.rate.RateTimerTask#getTaskAccumulator()Lorg/shiftone/jrat/core/Accumulator;N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateTimerTask.javaA A()"1*›
+1N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateTimerTask.javaC C(Ç
+Ä
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateTimerTask.javaC C((
+%0"org.shiftone.jrat.core.Accumulator"__id*B*@/
+-org.shiftone.jrat.provider.rate.RateTimerTask"
+accumulator"|
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateTimerTask.javaC C(*
+(
+%0"org.shiftone.jrat.core.AccumulatorB1/
+-org.shiftone.jrat.provider.rate.RateTimerTask

@@ -1,0 +1,17 @@
+
+Yorg.shiftone.jrat.core.spi.AbstractMethodHandlerFactory#getOutputFile()Ljava/lang/String;X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.javaW W("1*ž
+1X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.javaY Y(È
+Å
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.javaY Y(
+%0java.lang.String"__id*K*I9
+7org.shiftone.jrat.core.spi.AbstractMethodHandlerFactory"
+
+outputFile"t
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.javaY Y(
+
+%0java.lang.StringB;9
+7org.shiftone.jrat.core.spi.AbstractMethodHandlerFactory

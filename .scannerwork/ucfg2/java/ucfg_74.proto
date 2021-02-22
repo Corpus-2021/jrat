@@ -1,0 +1,27 @@
+
+rorg.shiftone.jrat.proxy.jdbc.ProxyCallableStatement#getObject(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/Object;V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java† †("1*‹
+1V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java‰ ‰(&Ù
+Ö
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java‰ ‰(& 
+%0java.sql.CallableStatement"__id*T*R5
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement"
+targetCallableStatementÝÚ
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java‰ ‰(D
+%1java.lang.Object"Yjava.sql.CallableStatement#getObject(Ljava/lang/String;Ljava/util/Map;)Ljava/lang/Object;*"
+ 
+%0java.sql.CallableStatement*#
+!
+parameterNamejava.lang.String*
+
+mapjava.util.Map2,getObject(Ljava/lang/String;Ljava/util/Map;)"r
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java‰ ‰(E
+
+%1java.lang.Object:!
+parameterNamejava.lang.String:
+mapjava.util.MapB75
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement

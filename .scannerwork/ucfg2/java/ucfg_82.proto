@@ -1,0 +1,26 @@
+
+aorg.shiftone.jrat.proxy.jdbc.ProxyCallableStatement#getTime(ILjava/util/Calendar;)Ljava/sql/Time;V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.java€ €("1*Î
+1V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaƒ ƒ(&Ù
+Ö
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaƒ ƒ(& 
+%0java.sql.CallableStatement"__id*T*R5
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement"
+targetCallableStatement£ 
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaƒ ƒ(C
+%1java.sql.Time"Hjava.sql.CallableStatement#getTime(ILjava/util/Calendar;)Ljava/sql/Time;*"
+ 
+%0java.sql.CallableStatement*
+""*
+
+caljava.util.Calendar2getTime(ILjava/util/Calendar;)"o
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaƒ ƒ(D
+
+%1java.sql.Time:
+"":
+caljava.util.CalendarB75
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement

@@ -1,0 +1,71 @@
+<?xml version="1.0"?>
+<document title="Anatomy of the JRat JAR">
+
+	<section-group>
+
+	The JRat binary distribution consists of a single JAR file.  The JRat JAR (shiftone-jrat.jar)
+	contains two distinct parts, which for the sake of simplicity, have been left together.
+
+
+	<section title="1. JRat Runtime">
+		<p>
+		This part of JRat is required to be in the classpath while profiling an application.
+		Bytecode that has been instrumented by the JRat Injector will contain hard dependencies on the JRat Runtime.
+		Trying to run injected classes without it will result in "class not found" exceptions.
+		</p>
+		<p>
+		The JRat Runtime contains primarily <bold>hooks</bold> and <bold>handlers</bold>.  Hooks monitor
+		runtime events, which are then delegated to the correct handlers based on JRat's configuration.
+		</p>
+	</section>
+
+	<section title="2. JRat Tools">
+		<p>
+		There are two types of functionality that the JRat tools currently provide.  They are to
+		<bold>inject classes and JARs</bold> and to <bold>view runtime output</bold>.
+		</p>
+		<p>
+		Classes and JARs can be injected using provided Ant tasks, a command line tool, or using the
+		JRat Desktop.  The Ant tasks and command line injector tool will not run without the BCEL JAR
+		in the classpath.  For Ant, this means bcel.jar should be in the and /lib directory.
+
+		If you attempt to use the injector features of the JRat Desktop, you will be prompted to
+		select the bcel.jar file (the location will be remembered).
+		</p>
+		<p>
+		JRat Runtime output can only be viewed from the JRat Desktop, which is it's primary purpose.
+		</p>
+	</section>
+
+	<section title="Providers">
+
+		Runtime events are sent to one or more handlers, depending on how JRat is configured.
+		Each implementation of the handler SPI does something different with the events, and it shouldn't be
+		a surprise, that each produces different output.  Obviously, each different type of output requires
+		a different viewer (unless the output is human readable).  What this means, is that each provider
+		can implement a handler and a viewer.  The handler will be used at runtime, and the viewer will be used
+		by the JRat Desktop to view output after runtime.  Providers are represented by the dotted box in the
+		diagram below.
+	</section>
+
+	<figure src="images/anatomy.png"/>
+
+	<p>
+	The large box in the middle of the diagram represents the JRat JAR.  The white portion of that box
+	depicts the components that are used while profiling an application.
+	</p>
+
+	<section title="Usage Scenarios">
+	<p>
+	The JRat JAR can be used in several ways :
+	<ol>
+		<li>Launch JRat Desktop from the command line</li>
+		<li>Launch Bytecode Injector from the command line</li>
+		<li>Inject with Ant - JAR in Ant /lib directory</li>
+		<li>Run profiled application - JAR in classpath</li>
+	</ol>
+	</p>
+	</section>
+	</section-group>
+
+</document>

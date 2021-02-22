@@ -1,0 +1,29 @@
+
+borg.shiftone.jrat.core.Accumulator#fromCSV(Ljava/lang/String;)Lorg/shiftone/jrat/core/Accumulator;E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaÝ Ý(%"1*ö
+1E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaß ß(˜•
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaß  ß(+(
+%0"org.shiftone.jrat.core.Accumulator""org.shiftone.jrat.core.Accumulatorª
+§
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaß ß(-
+%1",org.shiftone.jrat.core.Accumulator#<init>()V**
+(
+%0"org.shiftone.jrat.core.Accumulatorì
+é
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaß ß(.(
+%2"org.shiftone.jrat.core.Accumulator"†org.shiftone.jrat.core.Accumulator#fromCSV(Ljava/lang/String;Lorg/shiftone/jrat/core/Accumulator;)Lorg/shiftone/jrat/core/Accumulator;*&"$
+"org.shiftone.jrat.core.Accumulator*
+
+csvjava.lang.String**
+(
+%0"org.shiftone.jrat.core.Accumulator"s
+E
+9C:\q\jrat-0.6\src\org\shiftone\jrat\core\Accumulator.javaß ß(/*
+(
+%2"org.shiftone.jrat.core.Accumulator:
+csvjava.lang.StringB&"$
+"org.shiftone.jrat.core.Accumulator

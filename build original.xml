@@ -1,0 +1,255 @@
+<project name="shiftone" default="dist" basedir=".">
+
+
+	<property file="build.properties"/>
+
+	<!-- input directories -->
+	<property name="src.dir"	    value="src"/>
+	<property name="lib.dir"	    value="lib"/>
+	<property name="xdoc.dir"	    value="xdoc"/>
+	<property name="config.dir"	    value="config"/>
+
+	<!-- process directories -->
+	<property name="temp.dir"	    value="temp"/>
+	<property name="build.dir"	    value="build"/>
+
+	<!-- output directories -->
+	<property name="release.dir"	    value="release"/>
+	<property name="dist.dir"	    value="${release.dir}/dist"/>
+	<property name="doc.dir"	    value="${release.dir}/docs"/>
+	<property name="api.dir"	    value="${doc.dir}/api"/>
+
+	<property name="zip.dir"	    value="."/>
+	<property name="release.name"	    value="${build.jar}-${build.version}"/>
+	<property name="jar.file"	    value="${build.jar}.jar"/>
+	<property name="bin.zip.file"	    value="${release.name}.zip"/>
+	<property name="src.zip.file"	    value="${release.name}-src.zip"/>
+	<property name="title"		    value="${build.name} ${build.version}"/>
+
+	<!-- ======================================================================= -->
+
+	<target name="compile">
+
+        <tstamp prefix="jared"/>
+
+        <mkdir dir="${build.dir}"/>
+
+		<depend srcdir="${src.dir}" destdir="${build.dir}" cache="${temp.dir}" closure="yes"/>
+
+		<javac 
+			srcdir="${src.dir}" 
+			debug="yes" 
+			excludes="**/Jboss*"
+			destdir="${build.dir}" 
+			deprecation="false">
+
+			<classpath>
+
+				<fileset dir="${lib.dir}">
+					<include name="*"/>
+				</fileset>
+
+			</classpath>
+		</javac>
+
+        <copy todir="${build.dir}">
+           <fileset dir="${src.dir}" excludes="**/*.java"/>
+        </copy>
+
+        <propertyfile file="${build.dir}/jrat-version.properties">
+                <entry key="product_name"		value="${title}"/>
+				<entry key="version"	        value="${build.version}"/>
+				<entry key="built_by"		    value="${user.name}"/>
+				<entry key="built_on"		    value="${jared.TODAY}"/>
+        </propertyfile>
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+	<target name="dist" depends="compile">
+
+		<mkdir dir="${dist.dir}"/>
+
+		<jar jarfile="${dist.dir}/${jar.file}">
+
+			<fileset dir="${build.dir}"/>
+
+			<manifest>
+                		<attribute name="Main-Class"            value="org.shiftone.jrat.cli.Cli"/>
+				<attribute name="Product-Name"		value="${title}"/>
+				<attribute name="Project-Home"		value="${build.home}"/>
+				<attribute name="Product-Version"	value="${build.version}"/>
+				<attribute name="Built-By"		value="${user.name}"/>
+				<attribute name="Built-On"		value="${jared.TODAY}"/>
+			</manifest>
+		</jar>
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+	<target name="apidoc">
+
+		<mkdir dir="${api.dir}"/>
+		<javadoc
+		        packagenames="org.shiftone.*"
+		        sourcepath="${src.dir}"
+		        destdir="${api.dir}"
+		        access="package"
+		        windowtitle="${title} API">
+
+			<classpath>
+				<fileset dir="${lib.dir}">
+		        		<include name="*"/>
+				</fileset>
+			</classpath>
+
+
+		<link href="http://java.sun.com/j2se/1.3/docs/api/"/>
+		<link href="http://java.sun.com/j2ee/sdk_1.3/techdocs/api/"/>
+
+		</javadoc>
+
+	</target>
+
+	<!-- ======================================================================= -->
+	
+	<target name="style">
+	
+		<taskdef resource="checkstyletask.properties"/>
+		
+		<mkdir dir="${doc.dir}"/>
+		
+		<checkstyle config="stylerules.xml" failOnViolation="false">		
+			<fileset dir="${src.dir}" includes="**/*.java"/>			
+ 			<property key="basedir" file="${src.dir}"/> 			
+ 			<formatter type="xml" toFile="${doc.dir}/checkstyle_result.xml"/>			 			
+		</checkstyle>
+		
+		<xslt	in="${doc.dir}/checkstyle_result.xml"
+				out="${doc.dir}/checkstyle_result.html"				
+				style="${xdoc.dir}/style/checkstyle.xsl"/>
+
+	</target>
+	
+	<!-- ======================================================================= -->
+
+	<target name="xdoc">
+
+		<echo message="xdoc to ${doc.dir}"/>
+
+		<mkdir dir="${doc.dir}"/>
+
+		<copy todir="${doc.dir}">
+			<fileset dir="${xdoc.dir}" excludes="*.xml,*.xsl"/>
+		</copy>
+
+		<tstamp>
+			<format property="doced.time" pattern="M/d/yyyy h:mma"/>
+		</tstamp>
+
+		<style	basedir="${xdoc.dir}"
+			style="${xdoc.dir}/style/project.xsl"
+			destdir="${doc.dir}"
+			includes="*.xml" extension=".html">
+
+			<param name="p_title"		expression="${title}"/>
+			<param name="p_home"		expression="${build.home}"/>
+			<param name="p_version"		expression="${build.version}"/>
+			<param name="p_group_id"	expression="${build.group_id}"/>
+			<param name="p_date"		expression="${doced.time}"/>
+
+		</style>
+
+	</target>
+
+	<target name="doc" depends="apidoc,xdoc"/>
+
+	<!-- ======================================================================= -->
+
+	<target name="test" depends="dist">
+
+		<junit printsummary="on" showoutput="yes" fork="no" haltonerror="on" maxmemory="200M">
+
+ 			<sysproperty key="log4j.configuration" value="log4j.xml"/>
+
+			<classpath>
+
+				<pathelement path="${config.dir}" />
+				<pathelement path="${build.dir}" />
+				<pathelement path="${src.dir}" />
+
+				<fileset dir="${lib.dir}">
+					<include name="*"/>
+				</fileset>
+
+			</classpath>
+
+			<formatter type="plain" />
+
+			<batchtest fork="yes" todir="${temp.dir}">
+
+				<fileset dir="${build.dir}">
+					<include name="**/*TestCase.class" />
+				</fileset>
+
+			</batchtest>
+
+		</junit>
+
+	</target>	
+
+	<!-- ======================================================================= -->
+
+	<target name="clean">
+
+		<delete dir="${build.dir}"/>
+		<delete dir="${release.dir}"/>
+		<delete dir="${temp.dir}"/>
+
+		<delete>
+			<fileset dir="." includes="**/*.bak"/>
+			<fileset dir="." includes="log.txt"/>
+			<fileset dir="." includes="junit*.properties"/>
+		</delete>
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+	<target name="zip" depends="dist,doc">
+
+		<mkdir dir="${zip.dir}"/>
+
+		<zip destfile="${zip.dir}/${bin.zip.file}">
+			<zipfileset dir="${release.dir}" prefix="${release.name}"/>
+		</zip>
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+	<target name="release" depends="clean,zip"/>
+
+	<!-- ======================================================================= -->
+
+	<target name="release-src" depends="clean">
+
+		<zip destfile="${src.zip.file}">
+			<zipfileset dir="." prefix="${release.name}">
+				<include name="**/*" />
+				<exclude name="*.bak" />
+				<exclude name="${release.dir}" />
+				<exclude name="${temp.dir}" />
+				<exclude name="${build.dir}" />
+				
+			</zipfileset>
+		</zip>
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+</project>
+

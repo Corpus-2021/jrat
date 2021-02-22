@@ -1,0 +1,115 @@
+<?xml version="1.0"?>
+<document title="JRat with JBoss 4 AOP">
+
+
+	<section-group>
+
+		<section title="What?  JBoss does Aspects?">
+			<p>
+			The next version of JBoss server, version 4, will have
+			an aspect based architecture.  In addition to the underlying
+			application server being based on AOP, JBoss will also expose
+			it's AOP framework to application developers.
+			</p>
+			<p>
+			To say the least, this support for AOP is exciting and powerful.
+			</p>
+		</section>
+
+		<section title="What does JBoss AOP have to do with JRat?">
+			<p>
+			JRat is a tool for monitoring the execution behavior of
+			Java applications.  To accomplish this, JRat needs to do two
+			main things while an application runs.  It must (1) hook into
+			an application so it can gather data about it, and it must (2)
+			do something with the gathered data.
+			</p>
+			<p>
+			JRat is designed in a way that decouples the components that
+			perform those two tasks, and comes with a number of different
+			implementations of both.
+			</p>
+			<p>
+			The JBoss 4 environment (server or standalone) can be configured
+			to gather execution data and pass it to the JRat runtime.  This
+			is an alternative using one of the other native JRat "hooks".
+			</p>
+		</section>
+
+<!--
+		<section title="How does JBoss AOP perform in comparison to JRat injection?">
+			<p>
+			The performance is negligable in most cases.  From some initial testing, it 
+			appears	that a empty JBoss Interceptor takes about twice as long as an 
+			empty MethodHandler.  There is however slightly is a more significant
+			performance overhead in the JRat Interceptor implementation due to the way 
+			that the JBoss AOP model and the JRat model differ.
+			</p>			
+			<p>
+			The current DR2 release of JBoss AOP adds 11 method invocations to the call
+			stack for a configuration using a single (JRat) interceptor.  JRat adds 1.
+			This means a stack overflow will occure about 6 times sooner with JBoss AOP -
+			given the same configuration.
+			</p>
+			<p>
+			It is extremely likely that the prodction release of JBoss AOP will
+			perform much better.
+			</p>
+		</section>
+-->
+		<section title="How do I configure JRat's JBoss 4 hook?">
+			<p>
+			The JRat distribution now includes an implementation of
+			the JBoss <bold>Interceptor</bold> and <bold>InterceptorFactory</bold>
+			interfaces.  These classes understand how to produce events
+			that JRat can understand, and they implement an interface that
+			the JBoss AOP framework understands how to call.
+			</p>
+			<p>
+			To configure this bridge, JBoss must be configured by adding a
+			configuration file called <bold>META-INF/jboss-aop.xml</bold> to the classpath.  This file
+			can very in complexity.  Below is a minimal example of one
+			possible configuration.
+			</p>
+<code>
+&lt;aop>
+   &lt;method-pointcut class="org.blabla.foo.bar.*" methodName=".*" >
+      &lt;interceptors>
+         &lt;interceptor
+         	 factory="org.shiftone.jrat.aop.JbossInterceptorFactory"/>
+      &lt;/interceptors>
+   &lt;/method-pointcut>
+&lt;/aop>
+</code>
+			<p>
+			This particular configuration causes JBoss to notify JRat
+			of all method invocations to classes in the package
+			<bold>org.blabla.foo.bar</bold>.
+			</p>
+			<p>
+			Be aware that JRat may still need to be configured.  It is
+			typically desirable to configure event "handlers" for JRat
+			to use.  When the JBoss 4 interfaces stabilize,
+			it will likely be possible to perform JRat configuration
+			directly form the <bold>JBoss-aop.xml</bold> file.
+			</p>
+			<p>
+			Refer to the <a href="configure.html">JRat Configuration Guide</a>.
+			</p>
+			<p>
+			<bold>Implementation note</bold><br/>
+			When JRat is configured with more than one handler it transparently
+			uses a "chain handler" to deliver events to each configured handler.
+			JBoss does the same with Interceptors.  In the future, it is
+			expected that when JRat runs with JBoss, Interceptors will be chained
+			rather than JRat MethodHandlers.  The "chain handler" will continue
+			to be used when not running in a JBoss environment.
+			</p>
+		</section>
+
+
+	</section-group>
+
+
+
+</document>

@@ -1,0 +1,32 @@
+
+Rorg.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getLogWriter()Ljava/io/PrintWriter;Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¸ ¸(#"1*¹
+1Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaº º(Š
+‡
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaº º($
+%0org.shiftone.jrat.util.log.Log"__id*
+""ôñ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.javaº º(#
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*
+getLogWriter()2debug(Ljava/lang/Object;)†
+ƒ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¼ ¼($
+%2javax.sql.XADataSource"\org.shiftone.jrat.proxy.jdbc.ProxyXADataSource#getTargetDataSource()Ljavax/sql/XADataSource;*20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSourceáÞ
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¼ ¼(3
+%3java.io.PrintWriter">javax.sql.CommonDataSource#getLogWriter()Ljava/io/PrintWriter;*
+
+%2javax.sql.XADataSource2getLogWriter()"p
+Q
+EC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyXADataSource.java¼ ¼(4
+
+%3java.io.PrintWriterB20
+.org.shiftone.jrat.proxy.jdbc.ProxyXADataSource

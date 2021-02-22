@@ -1,0 +1,187 @@
+<?xml version="1.0"?>
+<document title="JRat Configuration">
+
+
+	<section-group>
+		<section title="The Non-Configuration">
+			<p>
+			JRat will work without any configuration at all.
+			It won't produce any output, but it will work.
+			This is because the default handler is a silent one
+			that doesn't do anything.
+			</p>
+			<p>
+			To run a JRat instrumented application with the least
+			impact on performance possible, just don't configure JRat at all.
+			</p>
+		</section>
+		<section title="The Most Basic Configuration">
+			<p>			
+			The simplest configuration that JRat supports is to use 
+			the same handler for all methods.  This may be useful in some
+			cases, especially when first getting familiar with JRat (see 
+			<a href="quickstart.html">Quick Start Guide</a>).
+			</p>
+			<p>
+			To configure JRat in this way, a system property must be 
+			defined that identifies the class name of the MethodHandlerFactory
+			that should be used.
+			</p>
+			<code>-Djrat.factory=org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory</code>
+		</section>
+		<section title="The XML Configuration">
+			<p>
+			In practice, all handlers are not the same.  Some are good for monitoring
+			every method invocation in an application, while others are better suited 
+			for monitoring coarse grained methods (such as Servlets or DAOs).  This is
+			typically based on the kind of information being collected, and the 
+			performance cost incurred while collecting it.			
+			</p>
+			<p>
+			As an example, the Rate handler is useful for measuring response time and
+			throughput.  It's not really suited well for measuring all method invocations
+			in a large application.
+			</p>
+			<p>
+			For this reason, JRat allows using multiple handlers at the same time, and also
+			constraining the methods events that a single handler will receive.			
+			</p>
+		</section>
+		<section title="An XML Configuration Example">
+			<p>
+			Below is a simple example XML configuration file.
+			</p>
+<code>&lt;jrat&gt;
+
+  &lt;!-- log all method invocations in org.shiftone.foo.bar --&gt;
+  &lt;handler&gt;
+    &lt;include className="org.shiftone.foo.*"/&gt;
+    &lt;exclude methodName="get*"/&gt;
+    &lt;exclude methodName="set*"/&gt;
+    
+    &lt;factory 
+     class="org.shiftone.jrat.provider.log.LogMethodHandlerFactory"/&gt;
+  &lt;/handler>
+
+  &lt;!-- record throughput for all servlets --&gt;
+  &lt;handler&gt;
+    &lt;include className="*Servlet" methodName="do*"/&gt;
+    &lt;include className="*Servlet" methodName="service"/&gt; 
+        
+    &lt;factory 
+     class="org.shiftone.jrat.provider.rate.RateMethodHandlerFactory"/&gt;
+  &lt;/handler&gt;
+
+&lt;/jrat&gt;
+</code>
+		<p>
+		Allow me to walk through this config.  There are two handlers that will
+		be used to monitor this application.  They are the <bold>log</bold> handler,
+		and the <bold>rate</bold> handler.
+		</p>
+		<p>
+		The log handler will receive all events for all classes in the package		
+		<bold>org.shiftone.foo</bold>, with the exception of accessor methods.
+		</p>
+		<p>
+		The rate handler will receive all events for all servlets in any package,
+		but only for the request processing methods.
+		</p>
+		<p>
+		All <bold>other</bold> methods events will be ignored (sent to the silent handler).
+		Also, a Servlet in the package 	<bold>org.shiftone.foo</bold> will create
+		events that will be handled by <bold>both</bold> the log and the rate handlers. 
+		</p>
+		</section>
+		
+		<section title="Handler Properties">
+			<p>
+			Below is yet another simple example XML configuration file.
+			</p>
+<code>&lt;jrat&gt;
+
+  &lt;!-- record stats for all servlets --&gt;
+  &lt;handler&gt;
+    &lt;include className="*Servlet" methodName="do*"/&gt;
+    &lt;include className="*Servlet" methodName="service"/&gt;     
+    
+    &lt;factory 
+     class="org.shiftone.jrat.provider.stats.StatMethodHandlerFactory"&gt;
+     
+       &lt;property name="CompressOutput" value="false"/&gt;
+       &lt;property name="RecordUnused"   value="false"/&gt;
+       &lt;property name="OutputFile"     value="MyStatOuputFile"/&gt;
+              
+     &lt;factory/&gt;
+  &lt;/handler&gt;
+
+&lt;/jrat&gt;
+</code>
+		<p>
+		This example configures and uses only one handler, the <bold>stat</bold> handler.
+		While the definition should look familiar (from the previous example), what
+		is new is the idea of handler properties.  Three properties are defined for 
+		this handler instance.
+		</p>
+		<p>
+		Properties have the ability to change the behavior of a handler instance.  The
+		properties that a handler supports is based on the "setter" methods on the
+		factory class.  When a handler factory class is created, before any handlers
+		are requested, the factories properties are set, and then it's startup method is 
+		invoked.  These properties will not change again during the execution of the
+		application.
+		</p>
+		<p>
+		Another point that should be mentioned is that each handler factory instance is
+		being configured.  It is expected that each instance behaves independently.  This
+		means several instances of the same handler can be configured differently.  One could
+		use two differently configured "stat" handlers to receive events from two different
+		portions of your application.
+		</p>
+		
+<code>&lt;jrat&gt;
+
+  &lt;!-- record stats for foo and bar servlets --&gt;
+  &lt;handler&gt;
+    &lt;include className="org.shiftone.foo.*Servlet"/&gt; 
+    &lt;factory 
+     class="org.shiftone.jrat.provider.stats.StatMethodHandlerFactory"&gt;
+       &lt;property name="OutputFile"     value="ServletStats-FOO"/&gt;
+     &lt;factory/&gt;
+  &lt;/handler&gt;
+  
+  &lt;handler&gt;
+    &lt;include className="org.shiftone.bar.*Servlet"/&gt; 
+    &lt;factory 
+     class="org.shiftone.jrat.provider.stats.StatMethodHandlerFactory"&gt;
+       &lt;property name="OutputFile"     value="ServletStats-BAR"/&gt;
+     &lt;factory/&gt;
+  &lt;/handler&gt;
+  
+&lt;/jrat&gt;
+</code>		
+		<p>
+		The above example captures stat output for servlets in the <bold>foo</bold> package to a file called <bold>ServletStats-FOO</bold>,
+		while output for servlets in the <bold>bar</bold> package are written to a file called <bold>ServletStats-BAR</bold>.
+		</p>		
+		</section>
+		
+		<section title="Telling JRat to use the configuration file">
+		<p>
+		You need to tell JRat that you want to use a configuration file, and 
+		also where to find that file.  Assuming the name of your XML configuration 
+		file is <b>jrat.xml</b>	(it can be anything) you will need to add a system
+		property like the following.
+		</p>
+		<code>-Djrat.configuration=jrat.xml</code>
+		<p>
+		This system property should be used <bold>instead of</bold> the property jrat.factory.
+		If you intend to use a configuration file, <bold>do not supply a factory property</bold>.  
+		A factory system property will take prescience over the configuration property.
+		</p>
+		</section>
+	</section-group>
+
+
+
+</document>

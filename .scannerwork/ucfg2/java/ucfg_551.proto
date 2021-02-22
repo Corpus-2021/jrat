@@ -1,0 +1,18 @@
+
+:org.shiftone.jrat.util.Percent#equals(Ljava/lang/Object;)ZA
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.javaø ø("2"1*í
+2A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.javaú7 ú(:Ÿœ
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.javaú- ú(I
+%0double"java.lang.Number#doubleValue()D*
+
+objjava.lang.Object2doubleValue()*
+1*“
+1A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.javaú ú(V"K
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.javaú ú(V
+"":
+objjava.lang.ObjectB" 
+org.shiftone.jrat.util.Percent

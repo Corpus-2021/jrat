@@ -1,0 +1,105 @@
+h1 {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica, sans-serif;
+	FONT-SIZE : 24px;
+	LINE-HEIGHT : 25px;
+	FONT-WEIGHT : bold ;
+	margin-bottom:  7;
+	margin-top:  7;
+}
+
+h2 {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 19px;
+	LINE-HEIGHT : 20px;
+	FONT-WEIGHT : bold ;
+	margin-bottom:  7;
+	margin-top:  7;
+}
+/*font-style: italic;*/
+h3 {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 17px;
+	LINE-HEIGHT : 18px;
+	FONT-WEIGHT : bold ;
+	margin-bottom:  7;
+	margin-top:  7;
+}
+
+h4 {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 16px;
+	LINE-HEIGHT : 17px;
+	FONT-WEIGHT : bold ;
+	margin-bottom:  7;
+	margin-top:  7;
+}
+
+P {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 15px;
+	LINE-HEIGHT : 16px;
+	FONT-WEIGHT : normal;
+	TEXT-DECORATION : none;
+	margin-bottom:  10;
+	margin-top:  0;
+	margin-left:  3;
+}
+
+ul {
+	margin-bottom:  20;
+	margin-top:  20;
+	margin-left:  3;
+}
+
+LI {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 15px;
+	LINE-HEIGHT : 16px;
+	FONT-WEIGHT : normal;
+	TEXT-DECORATION : none;
+	margin-bottom:  3;
+	margin-top:  0;
+	margin-left:  3;
+}
+
+
+A.jump {
+	COLOR : #000000;
+	FONT-FAMILY : Arial, helvetica ,sans-serif;
+	FONT-SIZE : 15px;
+	LINE-HEIGHT : 16px;
+	FONT-WEIGHT : normal;
+	TEXT-DECORATION : none;
+}
+
+
+A:visited {
+	COLOR : #999999;
+}
+
+A:active {
+	COLOR : #000000;
+}
+
+A:hover {
+	COLOR : #ff0000;
+}
+
+A:anchor {
+	COLOR : #000000;
+}
+
+pre {
+	COLOR : #000000;
+	FONT-FAMILY : monospace;
+	FONT-SIZE : 11px;
+	LINE-HEIGHT : 12px;
+	margin-bottom:  0;
+	margin-top:  0;
+}

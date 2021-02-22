@@ -1,0 +1,29 @@
+
+horg.shiftone.jrat.test.dummy.CrashTestDummy#returnStringArrayArg([Ljava/lang/String;)[Ljava/lang/String;N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java∞ ∞(("1*õ
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java≤ ≤(á
+Ñ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java≤ ≤($
+%0org.shiftone.jrat.util.log.Log"__id*
+""êç
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java≤ ≤(B
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*1/
+-public void oneStringArrayArg(String[] args))2debug(Ljava/lang/Object;)ƒ
+¡
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java≥ ≥(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"b
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaµ µ(
+
+args$Array:
+args$ArrayB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

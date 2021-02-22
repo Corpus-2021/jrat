@@ -1,0 +1,378 @@
+
+Oorg.shiftone.jrat.provider.tree.StackNode#printNonRoot(Ljava/io/PrintStream;I)VL
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaõ õ("5*›	
+2L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java± ±(“œ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java± ±(
+%49void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+>2println(Ljava/lang/String;)Ö
+Ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java≤ ≤(%
+%50void"Porg.shiftone.jrat.provider.tree.StackNode#printChildren(Ljava/io/PrintStream;I)V*-+
+)org.shiftone.jrat.provider.tree.StackNode*
+
+outjava.io.PrintStream*
+""Á
+‰
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java≥ ≥(9
+%51java.lang.String"Dorg.shiftone.jrat.util.StringUtil#bufferString(IC)Ljava/lang/String;*%"#
+!org.shiftone.jrat.util.StringUtil*
+""*
+""‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java≥ ≥(:
+%52void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%51java.lang.String2print(Ljava/lang/String;)ÿ’
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¥ ¥("
+%53void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*	
+</call>2println(Ljava/lang/String;)*
+0*ù
+3L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaØ Ø(™
+ß
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaØ Ø(
+%47java.util.Map"__id*;*9+
+)org.shiftone.jrat.provider.tree.StackNode"
+
+childrenîë
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaØ Ø(
+
+%48int"java.util.Map#size()I*
+
+%47java.util.Map2size()*
+2
+1*
+4L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java™ ™(ÓÎ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java™" ™(2
+%39java.lang.Long"Corg.shiftone.jrat.core.Accumulator#getMinDuration()Ljava/lang/Long;*-+
+)org.shiftone.jrat.provider.tree.StackNode2getMinDuration()ö
+ó
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java™ ™(2
+%40java.lang.String"__concat*	
+ min=\"*
+
+%39java.lang.Longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java™ ™(9
+%41java.lang.String"__concat*
+
+%40java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java™ ™(:
+%42void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%41java.lang.String2print(Ljava/lang/String;)ÓÎ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java´" ´(2
+%43java.lang.Long"Corg.shiftone.jrat.core.Accumulator#getMaxDuration()Ljava/lang/Long;*-+
+)org.shiftone.jrat.provider.tree.StackNode2getMaxDuration()ö
+ó
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java´ ´(2
+%44java.lang.String"__concat*	
+ max=\"*
+
+%43java.lang.Longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java´ ´(9
+%45java.lang.String"__concat*
+
+%44java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java´ ´(:
+%46void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%45java.lang.String2print(Ljava/lang/String;)*
+3*∏;
+5L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaù ù(Ê
+„
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaù ù(5
+%0java.lang.String"Dorg.shiftone.jrat.util.StringUtil#bufferString(IC)Ljava/lang/String;*%"#
+!org.shiftone.jrat.util.StringUtil*
+""*
+""‡›
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaù ù(6
+
+%1void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%0java.lang.String2print(Ljava/lang/String;)—Œ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaû û(
+
+%2void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*	
+<call2print(Ljava/lang/String;)Ω
+∫
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaü ü(%&
+%3 org.shiftone.jrat.core.MethodKey"__id*<*:+
+)org.shiftone.jrat.provider.tree.StackNode"
+	methodKeyÊ„
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaü ü(4
+%4java.lang.String"Aorg.shiftone.jrat.core.MethodKey#getClassName()Ljava/lang/String;*(
+&
+%3 org.shiftone.jrat.core.MethodKey2getClassName()ò
+ï
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaü ü(4
+%5java.lang.String"__concat*	
+ c=\"*
+
+%4java.lang.Stringï
+í
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaü ü(;
+%6java.lang.String"__concat*
+
+%5java.lang.String*
+\"‡›
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaü ü(<
+
+%7void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%6java.lang.String2print(Ljava/lang/String;)Ω
+∫
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java† †(%&
+%8 org.shiftone.jrat.core.MethodKey"__id*<*:+
+)org.shiftone.jrat.provider.tree.StackNode"
+	methodKeyËÂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java† †(5
+%9java.lang.String"Borg.shiftone.jrat.core.MethodKey#getMethodName()Ljava/lang/String;*(
+&
+%8 org.shiftone.jrat.core.MethodKey2getMethodName()ô
+ñ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java† †(5
+%10java.lang.String"__concat*	
+ m=\"*
+
+%9java.lang.Stringó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java† †(<
+%11java.lang.String"__concat*
+
+%10java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java† †(=
+%12void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%11java.lang.String2print(Ljava/lang/String;)æ
+ª
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java° °(%'
+%13 org.shiftone.jrat.core.MethodKey"__id*<*:+
+)org.shiftone.jrat.provider.tree.StackNode"
+	methodKeyËÂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java° °(4
+%14java.lang.String"Aorg.shiftone.jrat.core.MethodKey#getSignature()Ljava/lang/String;*)
+'
+%13 org.shiftone.jrat.core.MethodKey2getSignature()ö
+ó
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java° °(4
+%15java.lang.String"__concat*	
+ s=\"*
+
+%14java.lang.Stringó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java° °(;
+%16java.lang.String"__concat*
+
+%15java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java° °(<
+%17void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%16java.lang.String2print(Ljava/lang/String;)’“
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¢ ¢(.
+%18long"4org.shiftone.jrat.core.Accumulator#getTotalEnters()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getTotalEnters()ê
+ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¢ ¢(.
+%19java.lang.String"__concat*	
+ ent=\"*
+
+%18longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¢ ¢(5
+%20java.lang.String"__concat*
+
+%19java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¢ ¢(6
+%21void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%20java.lang.String2print(Ljava/lang/String;)”–
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java£ £(-
+%22long"3org.shiftone.jrat.core.Accumulator#getTotalExits()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getTotalExits()ê
+ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java£ £(-
+%23java.lang.String"__concat*	
+ xit=\"*
+
+%22longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java£ £(4
+%24java.lang.String"__concat*
+
+%23java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java£ £(5
+%25void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%24java.lang.String2print(Ljava/lang/String;)’“
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java§ §(.
+%26long"4org.shiftone.jrat.core.Accumulator#getTotalErrors()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getTotalErrors()ê
+ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java§ §(.
+%27java.lang.String"__concat*	
+ err=\"*
+
+%26longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java§ §(5
+%28java.lang.String"__concat*
+
+%27java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java§ §(6
+%29void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%28java.lang.String2print(Ljava/lang/String;)Ÿ÷
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java• •(0
+%30long"6org.shiftone.jrat.core.Accumulator#getTotalDuration()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getTotalDuration()ê
+ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java• •(0
+%31java.lang.String"__concat*	
+ dur=\"*
+
+%30longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java• •(7
+%32java.lang.String"__concat*
+
+%31java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java• •(8
+%33void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%32java.lang.String2print(Ljava/lang/String;)◊‘
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¶ ¶(/
+%34long"5org.shiftone.jrat.core.Accumulator#getSumOfSquares()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getSumOfSquares()ê
+ç
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¶ ¶(/
+%35java.lang.String"__concat*	
+ sos=\"*
+
+%34longó
+î
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¶ ¶(6
+%36java.lang.String"__concat*
+
+%35java.lang.String*
+\"‚ﬂ
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java¶ ¶(7
+%37void".java.io.PrintStream#print(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+
+%36java.lang.String2print(Ljava/lang/String;)Ÿ÷
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java® ®(
+%38long"6org.shiftone.jrat.core.Accumulator#getTotalDuration()J*-+
+)org.shiftone.jrat.provider.tree.StackNode2getTotalDuration()*
+3
+4*j
+0 "c
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.javaº º(
+implicit return*¨
+1L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java∏ ∏(”–
+L
+@C:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\StackNode.java∏ ∏(
+%54void"0java.io.PrintStream#println(Ljava/lang/String;)V*
+
+outjava.io.PrintStream*
+/>2println(Ljava/lang/String;)*
+0:
+outjava.io.PrintStream:
+""B-+
+)org.shiftone.jrat.provider.tree.StackNode

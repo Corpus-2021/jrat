@@ -1,0 +1,25 @@
+
+Jorg.shiftone.jrat.ui.viewer.RuntimeOutputImpl#openReader()Ljava/io/Reader;N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java[ [("1*Ω
+1N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java]% ](4äá
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java]% ](6
+%0java.io.InputStream"Torg.shiftone.jrat.ui.viewer.RuntimeOutputImpl#openInputStream()Ljava/io/InputStream;*1/
+-org.shiftone.jrat.ui.viewer.RuntimeOutputImpl2openInputStream()èå
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java] ]($
+%1java.io.InputStreamReader"java.io.InputStreamReader”
+–
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java] ](7
+%2"8java.io.InputStreamReader#<init>(Ljava/io/InputStream;)V*!
+
+%1java.io.InputStreamReader*
+
+%0java.io.InputStream"s
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\RuntimeOutputImpl.java] ](8!
+
+%1java.io.InputStreamReaderB1/
+-org.shiftone.jrat.ui.viewer.RuntimeOutputImpl

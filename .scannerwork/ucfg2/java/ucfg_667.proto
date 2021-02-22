@@ -1,0 +1,64 @@
+
+yorg.shiftone.jrat.jda.config.filter.FilterSetConfig#getFilterConfigs()[Lorg/shiftone/jrat/jda/config/filter/FilterConfig;T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java, ,(*"5*Ì
+3T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java3 3(æ
+ª
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java3. 3(8
+%3java.util.List"__id*G*E5
+3org.shiftone.jrat.jda.config.filter.FilterSetConfig"
+
+filterListù
+ö
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java3. 3(?
+%4java.lang.Object"
+__arrayGet*
+
+%3java.util.List*
+""®
+•
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java3 3(?
+%5"
+__arraySet*
+
+filterConfigs$Array*
+""*
+
+%4java.lang.Object*
+3
+1*º
+5T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java/8 /(Bæ
+ª
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java/8 /(B
+%0java.util.List"__id*G*E5
+3org.shiftone.jrat.jda.config.filter.FilterSetConfig"
+
+filterListúô
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java/8 /(I	
+%1int"java.util.List#size()I*
+
+%0java.util.List2size()nl
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java/' /(J
+%2$Array"$Arrayà
+Ö
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java/ /(K
+filterConfigs$Array"__id*
+
+%2$Array*
+3
+1*Ã
+1T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java6 6("q
+T
+JC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\filter\FilterSetConfig.java6 6(
+
+filterConfigs$ArrayB75
+3org.shiftone.jrat.jda.config.filter.FilterSetConfig

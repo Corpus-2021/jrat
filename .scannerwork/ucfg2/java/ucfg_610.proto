@@ -1,0 +1,26 @@
+
+Gorg.shiftone.jrat.ui.util.ColorComparator#colorValue(Ljava/awt/Color;)IC
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javap p("1*–
+1C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javar r(éã
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javar r(	
+%0int"java.awt.Color#getRed()I*
+
+cjava.awt.Color2getRed()íè
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javar r((	
+%1int"java.awt.Color#getGreen()I*
+
+cjava.awt.Color2
+getGreen()êç
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javar+ r(6	
+%2int"java.awt.Color#getBlue()I*
+
+cjava.awt.Color2	getBlue()"M
+C
+9C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\ColorSet.javar r(7
+"":
+cjava.awt.ColorB-+
+)org.shiftone.jrat.ui.util.ColorComparator

@@ -1,0 +1,34 @@
+
+Dorg.shiftone.jrat.ui.UserSettings#getLastInjectedJar()Ljava/io/File;B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaU U(""1*ñ
+1B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW W(p
+n
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW W(
+%0java.util.Properties"__id*
+""l
+j
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW( W(>
+%1java.lang.String"__id*
+""€ý
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW W(?
+%2java.lang.String"Fjava.util.Properties#getProperty(Ljava/lang/String;)Ljava/lang/String;*
+
+%0java.util.Properties*
+
+%1java.lang.String2getProperty(Ljava/lang/String;)è
+å
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW W(@
+%3java.io.File"Jorg.shiftone.jrat.ui.UserSettings#toFile(Ljava/lang/String;)Ljava/io/File;*%#
+!org.shiftone.jrat.ui.UserSettings*
+
+%2java.lang.String"Z
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaW W(A
+
+%3java.io.FileB%#
+!org.shiftone.jrat.ui.UserSettings

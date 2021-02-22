@@ -1,0 +1,33 @@
+
+7org.shiftone.jrat.ui.viewer.ProgressInputStream#read()IP
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.java` `("4*³
+2P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javag g(Ö
+Ó
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javai i(
+
+%2void">org.shiftone.jrat.ui.viewer.ProgressInputStream#updateModel()V*31
+/org.shiftone.jrat.ui.viewer.ProgressInputStream*
+1*Á
+4P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javac c(¼
+¹
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javac c(
+%0java.io.InputStream"__id*D*B1
+/org.shiftone.jrat.ui.viewer.ProgressInputStream"
+inputStream¢Ÿ
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javac c("	
+%1int"java.io.InputStream#read()I*
+
+%0java.io.InputStream2read()*
+2
+1*±
+1P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javal l("Z
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\ProgressInputStream.javal l(
+""B31
+/org.shiftone.jrat.ui.viewer.ProgressInputStream

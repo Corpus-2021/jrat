@@ -1,0 +1,121 @@
+
+Äorg.shiftone.jrat.inject.process.AbstractProcessor#processFile(Lorg/shiftone/jrat/inject/Injector;Ljava/io/File;Ljava/io/File;)ZU
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java™ ™(!"1*Ü
+1U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≠$ ≠((å
+â
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≠ ≠()"
+inputStreamjava.io.InputStream"__id*
+""é
+ã
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.javaÆ Æ()$
+outputStreamjava.io.OutputStream"__id*
+""s
+q
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.javaØ3 Ø(F
+
+%0long"__id*
+""¢ü
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.javaØH Ø(W
+
+%1long"java.io.File#length()J*
+
+sourcejava.io.File2length()Ø
+¨
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.javaØ* Ø(X
+
+%2long"java.lang.Math#min(JJ)J*"
+java.lang.Math*
+
+
+%0long*
+
+
+%1longíè
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java±3 ±(B
+%3java.io.FileInputStream"java.io.FileInputStreamÃ
+…
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java±/ ±(J
+%4"/java.io.FileInputStream#<init>(Ljava/io/File;)V*
+
+%3java.io.FileInputStream*
+
+sourcejava.io.Fileöó
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java± ±(.!
+%5java.io.BufferedInputStream"java.io.BufferedInputStreamÎ
+Ë
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java± ±(W
+%6";java.io.BufferedInputStream#<init>(Ljava/io/InputStream;I)V*#
+!
+%5java.io.BufferedInputStream*
+
+%3java.io.FileInputStream*
+""©
+¶
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java± ±(W"
+inputStreamjava.io.InputStream"__id*#
+!
+%5java.io.BufferedInputStreamîë
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≤4 ≤(D
+%7java.io.FileOutputStream"java.io.FileOutputStreamŒ
+À
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≤0 ≤(L
+%8"0java.io.FileOutputStream#<init>(Ljava/io/File;)V* 
+
+%7java.io.FileOutputStream*
+
+targetjava.io.Fileúô
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≤ ≤(/"
+%9java.io.BufferedOutputStream"java.io.BufferedOutputStream
+Ì
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≤ ≤(Y
+%10"=java.io.BufferedOutputStream#<init>(Ljava/io/OutputStream;I)V*$
+"
+%9java.io.BufferedOutputStream* 
+
+%7java.io.FileOutputStream*
+""¨
+©
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java≤ ≤(Y$
+outputStreamjava.io.OutputStream"__id*$
+"
+%9java.io.BufferedOutputStream¬ø
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java¥B ¥(R
+%11java.lang.String"(java.io.File#getName()Ljava/lang/String;*
+
+sourcejava.io.File2	getName()”–
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java¥ ¥(S
+%12boolean"£org.shiftone.jrat.inject.process.AbstractProcessor#processStream(Lorg/shiftone/jrat/inject/Injector;Ljava/io/InputStream;Ljava/io/OutputStream;Ljava/lang/String;)Z*64
+2org.shiftone.jrat.inject.process.AbstractProcessor*/
+-
+injector!org.shiftone.jrat.inject.Injector*$
+"
+inputStreamjava.io.InputStream*&
+$
+outputStreamjava.io.OutputStream*
+
+%11java.lang.String2oprocessStream(Lorg/shiftone/jrat/inject/Injector;Ljava/io/InputStream;Ljava/io/OutputStream;Ljava/lang/String;)"_
+U
+IC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\AbstractProcessor.java¥ ¥(T
+"":-
+injector!org.shiftone.jrat.inject.Injector:
+sourcejava.io.File:
+targetjava.io.FileB64
+2org.shiftone.jrat.inject.process.AbstractProcessor

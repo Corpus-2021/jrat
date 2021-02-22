@@ -1,0 +1,17 @@
+
+Yorg.shiftone.jrat.inject.Injector#injectStream(Ljava/io/InputStream;Ljava/lang/String;)[BB
+8C:\q\jrat-0.6\src\org\shiftone\jrat\inject\Injector.java= =("1*Þ
+1B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\inject\Injector.java@" @(&Æ
+Ã
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\inject\Injector.javaE? E(P9
+%03org.shiftone.jrat.inject.criteria.InjectionCriteria"__id*<*:#
+!org.shiftone.jrat.inject.Injector"
+injectionCriteria"L
+B
+8C:\q\jrat-0.6\src\org\shiftone\jrat\inject\Injector.javaG G($
+"":"
+inputStreamjava.io.InputStream:
+fileNamejava.lang.StringB%#
+!org.shiftone.jrat.inject.Injector

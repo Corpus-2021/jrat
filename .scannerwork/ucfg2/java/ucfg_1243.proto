@@ -1,0 +1,22 @@
+
+Norg.shiftone.jrat.util.PropertiesTree$Node#getChildren()Ljava/util/Collection;H
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\PropertiesTree.javaï ï(%"1*›
+1H
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\PropertiesTree.javañ ñ(¦
+£
+H
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\PropertiesTree.javañ ñ(
+%0java.util.Map"__id*<*:,
+*org.shiftone.jrat.util.PropertiesTree$Node"
+
+children¸µ
+H
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\PropertiesTree.javañ ñ($
+%1java.util.Collection",java.util.Map#values()Ljava/util/Collection;*
+
+%0java.util.Map2values()"h
+H
+<C:\q\jrat-0.6\src\org\shiftone\jrat\util\PropertiesTree.javañ ñ(%
+
+%1java.util.CollectionB.,
+*org.shiftone.jrat.util.PropertiesTree$Node

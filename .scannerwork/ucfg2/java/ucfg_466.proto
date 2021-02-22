@@ -1,0 +1,54 @@
+
+Žorg.shiftone.jrat.core.HandlerFactory#getMethodHandler(Ljava/lang/String;Ljava/lang/reflect/Method;)Lorg/shiftone/jrat/core/spi/MethodHandler;F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javab& b(6"1*÷
+1F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javae e("ÊÇ
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javae e(,
+%0java.lang.String"4java.lang.reflect.Method#getName()Ljava/lang/String;*$
+"
+methodjava.lang.reflect.Method2	getName()‹
+ˆ
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javae e(-
+
+methodNamejava.lang.String"__id*
+
+%0java.lang.String”
+‘
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javaf f(=
+%1java.lang.String"_org.shiftone.jrat.util.SignatureUtil#getSignature(Ljava/lang/reflect/Method;)Ljava/lang/String;*("&
+$org.shiftone.jrat.util.SignatureUtil*$
+"
+methodjava.lang.reflect.MethodŠ
+‡
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javaf f(>
+	signaturejava.lang.String"__id*
+
+%1java.lang.String†
+ƒ
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javah h(+
+%2%org.shiftone.jrat.core.HandlerFactory"__id*
+""¥
+¢
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javah h(A.
+%3(org.shiftone.jrat.core.spi.MethodHandler"˜org.shiftone.jrat.core.HandlerFactory#getMethodHandler(Ljava/lang/String;Ljava/lang/String;Ljava/lang/String;)Lorg/shiftone/jrat/core/spi/MethodHandler;*)"'
+%org.shiftone.jrat.core.HandlerFactory*
+
+	classNamejava.lang.String* 
+
+
+methodNamejava.lang.String*
+
+	signaturejava.lang.String"z
+F
+<C:\q\jrat-0.6\src\org\shiftone\jrat\core\HandlerFactory.javah h(B0
+.
+%3(org.shiftone.jrat.core.spi.MethodHandler:
+	classNamejava.lang.String:"
+methodjava.lang.reflect.MethodB)"'
+%org.shiftone.jrat.core.HandlerFactory

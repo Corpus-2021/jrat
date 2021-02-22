@@ -1,0 +1,23 @@
+
+˜org.shiftone.jrat.provider.log.LogMethodHandlerFactory#createMethodHandler(Lorg/shiftone/jrat/core/MethodKey;)Lorg/shiftone/jrat/core/spi/MethodHandler;W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\LogMethodHandlerFactory.java5 5(,"1*Ù
+1W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\LogMethodHandlerFactory.java7$ 7(-ÄÁ
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\LogMethodHandlerFactory.java7 7(#5
+%0/org.shiftone.jrat.provider.log.LogMethodHandler"/org.shiftone.jrat.provider.log.LogMethodHandlerž
+›
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\LogMethodHandlerFactory.java7 7(4
+%1"“org.shiftone.jrat.provider.log.LogMethodHandler#<init>(Lorg/shiftone/jrat/core/MethodKey;Lorg/shiftone/jrat/provider/log/LogMethodHandlerFactory;)V*7
+5
+%0/org.shiftone.jrat.provider.log.LogMethodHandler*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*:8
+6org.shiftone.jrat.provider.log.LogMethodHandlerFactory"’
+W
+MC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\LogMethodHandlerFactory.java7 7(57
+5
+%0/org.shiftone.jrat.provider.log.LogMethodHandler:-
+	methodKey org.shiftone.jrat.core.MethodKeyB:8
+6org.shiftone.jrat.provider.log.LogMethodHandlerFactory

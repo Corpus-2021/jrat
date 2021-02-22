@@ -1,0 +1,22 @@
+
+Porg.shiftone.jrat.proxy.jdbc.ProxyStatement#getConnection()Ljava/sql/Connection;N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java√ √(#"1*π
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java≈ ≈(ÑÅ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java≈ ≈(
+
+%0void"Dorg.shiftone.jrat.proxy.jdbc.ProxyStatement#log(Ljava/lang/String;)V*/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement*
+getConnection()2log(Ljava/lang/String;)”
+–
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java« «(2
+%1,org.shiftone.jrat.proxy.jdbc.ProxyConnection"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+proxyConnection"Ü
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java« «(4
+2
+%1,org.shiftone.jrat.proxy.jdbc.ProxyConnectionB/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

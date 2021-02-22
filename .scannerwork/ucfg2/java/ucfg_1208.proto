@@ -1,0 +1,27 @@
+
+Vorg.shiftone.jrat.proxy.MethInvocationHandler#returnsVoid(Ljava/lang/reflect/Method;)ZN
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaV! V(,"1*æ
+1N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaX X(ÜÙ
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaX X(&
+%0java.lang.Class"9java.lang.reflect.Method#getReturnType()Ljava/lang/Class;*$
+"
+methodjava.lang.reflect.Method2getReturnType()w
+u
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaX. X(7
+%1java.lang.Class"__id*
+""ÞÛ
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaX X(8
+%2boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%0java.lang.Class*
+
+%1java.lang.Class2equals(Ljava/lang/Object;)"X
+N
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaX X(:
+"":"
+methodjava.lang.reflect.MethodB1"/
+-org.shiftone.jrat.proxy.MethInvocationHandler

@@ -1,0 +1,82 @@
+
+=org.shiftone.jrat.provider.record.RecordOutput#getThreadId()IO
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java0 0("3*ı
+
+2O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java7 7((∂
+≥
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java7) 7(?
+%2java.lang.Thread"2java.lang.Thread#currentThread()Ljava/lang/Thread;*"
+java.lang.ThreadÅ
+˛
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java7 7(@	
+%3int"Rorg.shiftone.jrat.provider.record.RecordOutput#writeThreadDef(Ljava/lang/Thread;)I*20
+.org.shiftone.jrat.provider.record.RecordOutput*
+
+%2java.lang.Thread}
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java8 8(%
+%4java.lang.Integer"java.lang.Integerõ
+ò
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java8 8()
+%5"java.lang.Integer#<init>(I)V*
+
+%4java.lang.Integer*
+""ì
+ê
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java8 8()
+integerjava.lang.Integer"__id*
+
+%4java.lang.Integerº
+π
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java: :(
+%6java.lang.ThreadLocal"__id*C*A0
+.org.shiftone.jrat.provider.record.RecordOutput"
+threadLocalËÂ
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java: :($
+
+%7void".java.lang.ThreadLocal#set(Ljava/lang/Object;)V*
+
+%6java.lang.ThreadLocal*
+
+integerjava.lang.Integer2set(Ljava/lang/Object;)*
+1*Ù
+3O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java2 2(º
+π
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java3$ 3(/
+%0java.lang.ThreadLocal"__id*C*A0
+.org.shiftone.jrat.provider.record.RecordOutput"
+threadLocal¡æ
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java3$ 3(5
+%1java.lang.Object"-java.lang.ThreadLocal#get()Ljava/lang/Object;*
+
+%0java.lang.ThreadLocal2get()í
+è
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java3 3(6
+integerjava.lang.Integer"__id*
+
+%1java.lang.Object*
+2
+1*‹
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java> >(™ß
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java> >(!	
+%8int"java.lang.Integer#intValue()I*
+
+integerjava.lang.Integer2
+intValue()"Y
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordOutput.java> >("
+""B20
+.org.shiftone.jrat.provider.record.RecordOutput

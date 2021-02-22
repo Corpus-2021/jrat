@@ -1,0 +1,50 @@
+
+žorg.shiftone.jrat.provider.record.RecordMethodHandlerFactory#createMethodHandler(Lorg/shiftone/jrat/core/MethodKey;)Lorg/shiftone/jrat/core/spi/MethodHandler;]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java# #(,"5*Æ
+2]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java) )(@Ü
+Ù
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java) )(@3
+handler(org.shiftone.jrat.core.spi.MethodHandler"__id*=
+;
+%15org.shiftone.jrat.provider.record.RecordMethodHandler*
+1*Ö
+4]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java). )(7ì
+é
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java)9 )(?4
+%0.org.shiftone.jrat.provider.record.RecordOutput"__id*L*J>
+<org.shiftone.jrat.provider.record.RecordMethodHandlerFactory"
+outputÖÓ
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java) )(-;
+%15org.shiftone.jrat.provider.record.RecordMethodHandler"5org.shiftone.jrat.provider.record.RecordMethodHandler¤
+¡
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java) )(@
+%2"‘org.shiftone.jrat.provider.record.RecordMethodHandler#<init>(Lorg/shiftone/jrat/core/MethodKey;Lorg/shiftone/jrat/provider/record/RecordOutput;)V*=
+;
+%15org.shiftone.jrat.provider.record.RecordMethodHandler*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*6
+4
+%0.org.shiftone.jrat.provider.record.RecordOutput*
+2*
+5]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java%  %($¥
+¢
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java% %(%3
+handler(org.shiftone.jrat.core.spi.MethodHandler"__id*
+""*
+4*û
+1]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java1 1("–
+]
+SC:\q\jrat-0.6\src\org\shiftone\jrat\provider\record\RecordMethodHandlerFactory.java1 1(5
+3
+handler(org.shiftone.jrat.core.spi.MethodHandler:-
+	methodKey org.shiftone.jrat.core.MethodKeyB@>
+<org.shiftone.jrat.provider.record.RecordMethodHandlerFactory

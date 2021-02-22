@@ -1,0 +1,26 @@
+
+Korg.shiftone.jrat.util.Percent#compareTo(Lorg/shiftone/jrat/util/Percent;)IA
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java… …("1*À
+1A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java‡ ‡(‘
+Ž
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java‡ ‡(>
+
+%0void"Rorg.shiftone.jrat.util.Assert#assertNotNull(Ljava/lang/String;Ljava/lang/Object;)V*!"
+org.shiftone.jrat.util.Assert*
+anotherPercent*2
+0
+anotherPercentorg.shiftone.jrat.util.Percent–
+“
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java‰ ‰(:	
+%1int"java.lang.Double#compare(DD)I*"
+java.lang.Double*
+""*
+"""K
+A
+5C:\q\jrat-0.6\src\org\shiftone\jrat\util\Percent.java‰ ‰(;
+"":0
+anotherPercentorg.shiftone.jrat.util.PercentB" 
+org.shiftone.jrat.util.Percent

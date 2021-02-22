@@ -1,0 +1,20 @@
+
+=org.shiftone.jrat.inject.process.OpenInputStream#available()IQ
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.java? ?("1*¤
+1Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaA A(¾
+»
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaA A(
+%0java.io.InputStream"__id*E*C2
+0org.shiftone.jrat.inject.process.OpenInputStream"
+inputStream­ª
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaA A(&	
+%1int" java.io.InputStream#available()I*
+
+%0java.io.InputStream2available()"[
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaA A('
+""B42
+0org.shiftone.jrat.inject.process.OpenInputStream

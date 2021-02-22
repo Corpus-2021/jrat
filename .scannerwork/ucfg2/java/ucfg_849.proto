@@ -1,0 +1,21 @@
+
+|org.shiftone.jrat.inject.process.CopyProcessor#processFile(Lorg/shiftone/jrat/inject/Injector;Ljava/io/File;Ljava/io/File;)ZO
+EC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\CopyProcessor.java ("1*¯
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\CopyProcessor.java   (ý
+ú
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\CopyProcessor.java   (*
+%0boolean"Aorg.shiftone.jrat.util.IOUtil#copy(Ljava/io/File;Ljava/io/File;)Z*!"
+org.shiftone.jrat.util.IOUtil*
+
+sourcejava.io.File*
+
+targetjava.io.File"Y
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\CopyProcessor.java   (+
+"":-
+injector!org.shiftone.jrat.inject.Injector:
+sourcejava.io.File:
+targetjava.io.FileB20
+.org.shiftone.jrat.inject.process.CopyProcessor

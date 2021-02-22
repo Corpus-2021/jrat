@@ -1,0 +1,23 @@
+
+Xorg.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode#getIndex(Ljavax/swing/tree/TreeNode;)IR
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java] ]("1*Ý
+1R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java_ _(¹
+¶
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java_ _(
+%0java.util.List"__id*D*B3
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode"
+	childListéæ
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java_ _(&	
+%1int"+java.util.List#indexOf(Ljava/lang/Object;)I*
+
+%0java.util.List*#
+!
+nodejavax.swing.tree.TreeNode2indexOf(Ljava/lang/Object;)"\
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.java_ _('
+"":!
+nodejavax.swing.tree.TreeNodeB53
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode

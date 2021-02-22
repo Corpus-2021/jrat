@@ -1,0 +1,33 @@
+
+=org.shiftone.jrat.proxy.jdbc.ProxyConnection#getAutoCommit()ZO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java– –( "1*Ò
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java˜ ˜($½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java˜ ˜($
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnection·´
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java˜ ˜(4
+%1boolean"$java.sql.Connection#getAutoCommit()Z*
+
+%0java.sql.Connection2getAutoCommit()—
+”
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaš š(%
+%2java.lang.String"__concat*
+getAutoCommit() -> *
+""Œ‰
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaš š(&
+
+%3void"Eorg.shiftone.jrat.proxy.jdbc.ProxyConnection#log(Ljava/lang/String;)V*0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection*
+
+%2java.lang.String2log(Ljava/lang/String;)"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaœ œ(
+""B0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

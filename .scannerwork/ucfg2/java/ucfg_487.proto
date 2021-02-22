@@ -1,0 +1,29 @@
+
+>org.shiftone.jrat.test.dummy.CrashTestDummy#twoIntegerArg(II)IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÒ Ò("1*Š
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÔ Ô(‡
+„
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÔ Ô($
+%0org.shiftone.jrat.util.log.Log"__id*
+""‰†
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÔ Ô(;
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log**(
+&public int twoIntegerArg(int a, int b)2debug(Ljava/lang/Object;)Ä
+Á
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaÕ Õ(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java× ×(
+"":
+"":
+""B/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

@@ -1,0 +1,20 @@
+
+>org.shiftone.jrat.proxy.jdbc.ProxyStatement#getQueryTimeout()IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java¯ ¯("1* 
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java± ±(¹
+¶
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java± ±(
+%0java.sql.Statement"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+targetStatement´±
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java± ±(0	
+%1int"%java.sql.Statement#getQueryTimeout()I*
+
+%0java.sql.Statement2getQueryTimeout()"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.java± ±(1
+""B/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

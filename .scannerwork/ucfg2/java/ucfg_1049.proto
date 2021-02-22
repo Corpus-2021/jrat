@@ -1,0 +1,39 @@
+
+{org.shiftone.jrat.jda.config.VMTraceConfig#createAttachingConnector()Lorg/shiftone/jrat/jda/config/connect/ConnectorConfig;K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.java? ?(3"1*«
+
+1K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaB B(Í
+Ê
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaB B(
+
+%0void"?org.shiftone.jrat.jda.config.VMTraceConfig#assertNoConnector()V*.,
+*org.shiftone.jrat.jda.config.VMTraceConfigÔÑ
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaD D(6C
+%1=org.shiftone.jrat.jda.config.connect.AttachingConnectorConfig"=org.shiftone.jrat.jda.config.connect.AttachingConnectorConfigæ
+ã
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaD D(8
+%2"Gorg.shiftone.jrat.jda.config.connect.AttachingConnectorConfig#<init>()V*E
+C
+%1=org.shiftone.jrat.jda.config.connect.AttachingConnectorConfigà
+Ý
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaD D(8A,
+*org.shiftone.jrat.jda.config.VMTraceConfig"
+connectorConfig"__id*E
+C
+%1=org.shiftone.jrat.jda.config.connect.AttachingConnectorConfig×
+Ô
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaF F(:
+%34org.shiftone.jrat.jda.config.connect.ConnectorConfig"__id*C*A,
+*org.shiftone.jrat.jda.config.VMTraceConfig"
+connectorConfig"‹
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\VMTraceConfig.javaF F(<
+:
+%34org.shiftone.jrat.jda.config.connect.ConnectorConfigB.,
+*org.shiftone.jrat.jda.config.VMTraceConfig

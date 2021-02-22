@@ -1,0 +1,16 @@
+
+Norg.shiftone.jrat.core.spi.ViewerXmlHandler#getComponent()Ljava/awt/Component;L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\ViewerXmlHandler.java2 2(!"1*ñ
+1L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\ViewerXmlHandler.java4 4(±
+®
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\ViewerXmlHandler.java4 4(
+%0java.awt.Component"__id*>*<-
++org.shiftone.jrat.core.spi.ViewerXmlHandler"
+	component"j
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\ViewerXmlHandler.java4 4(
+
+%0java.awt.ComponentB/-
++org.shiftone.jrat.core.spi.ViewerXmlHandler

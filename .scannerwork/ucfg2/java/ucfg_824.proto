@@ -1,0 +1,21 @@
+
+Torg.shiftone.jrat.provider.stats.StatMethodHandler#getMethodName()Ljava/lang/String;S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatMethodHandler.javaB B("1*‹
+1S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatMethodHandler.javaD D(Í
+Ê
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatMethodHandler.javaD D(&
+%0 org.shiftone.jrat.core.MethodKey"__id*E*C4
+2org.shiftone.jrat.provider.stats.StatMethodHandler"
+	methodKeyïì
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatMethodHandler.javaD D((
+%1java.lang.String"Borg.shiftone.jrat.core.MethodKey#getMethodName()Ljava/lang/String;*(
+&
+%0 org.shiftone.jrat.core.MethodKey2getMethodName()"o
+S
+IC:\q\jrat-0.6\src\org\shiftone\jrat\provider\stats\StatMethodHandler.javaD D()
+
+%1java.lang.StringB64
+2org.shiftone.jrat.provider.stats.StatMethodHandler

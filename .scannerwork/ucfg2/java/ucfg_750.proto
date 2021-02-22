@@ -1,0 +1,21 @@
+
+Rorg.shiftone.jrat.proxy.jdbc.ProxyStatement#getGeneratedKeys()Ljava/sql/ResultSet;N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaì ì(%"1*Ø
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaî î(¹
+¶
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaî î(
+%0java.sql.Statement"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+targetStatementØÕ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaî î(1
+%1java.sql.ResultSet"9java.sql.Statement#getGeneratedKeys()Ljava/sql/ResultSet;*
+
+%0java.sql.Statement2getGeneratedKeys()"l
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaî î(2
+
+%1java.sql.ResultSetB/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

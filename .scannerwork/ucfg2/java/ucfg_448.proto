@@ -1,0 +1,23 @@
+
+Rorg.shiftone.jrat.provider.tree.ui.StackTreeNode#children()Ljava/util/Enumeration;S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaã ã("1*‡
+1S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaå å(¹
+¶
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaå' å(0
+%0java.util.List"__id*C*A2
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode"
+	childListú
+÷
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaå å(1
+%1java.util.Enumeration"Pjava.util.Collections#enumeration(Ljava/util/Collection;)Ljava/util/Enumeration;*"
+java.util.Collections*
+
+%0java.util.List"t
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaå å(2
+
+%1java.util.EnumerationB42
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode

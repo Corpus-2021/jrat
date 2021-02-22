@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<document title="Java Debugger Interface">
+
+
+	<section-group>
+		<section title="What is the Java Debugger Interface?">
+			JDI is a standard Java API used to remotely debug Java applications.
+		</section>
+		<section title="Why is JDI in JRat experimental?">
+			The JDI JRat "hook" implementation is a low priority.  Initial
+			testing suggests it is going to be painfully slow in comparison
+			to the other two options.
+		</section>
+	</section-group>
+
+
+
+</document>

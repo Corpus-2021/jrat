@@ -1,0 +1,1 @@
+java -Djrat.configuration=simulation/jrat.xml -classpath lib\shiftone-arbor.jar;config;release\dist\shiftone-jrat.jar org.shiftone.jrat.simulate.Simulator config\simulation\simulation1.xml

@@ -1,0 +1,23 @@
+
+Korg.shiftone.jrat.proxy.jdbc.ProxyCallableStatement#getURL(I)Ljava/net/URL;V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javañ ñ("1*„
+1V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaó ó(&Ù
+Ö
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaó ó(& 
+%0java.sql.CallableStatement"__id*T*R5
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement"
+targetCallableStatementÚ×
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaó ó(=
+%1java.net.URL"2java.sql.CallableStatement#getURL(I)Ljava/net/URL;*"
+ 
+%0java.sql.CallableStatement*
+""2	getURL(I)"n
+V
+JC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyCallableStatement.javaó ó(>
+
+%1java.net.URL:
+""B75
+3org.shiftone.jrat.proxy.jdbc.ProxyCallableStatement

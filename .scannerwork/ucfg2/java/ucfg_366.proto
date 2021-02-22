@@ -1,0 +1,16 @@
+
+Norg.shiftone.jrat.ui.util.StatusBar#getProgressBar()Ljavax/swing/JProgressBar;D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\StatusBar.java0 0(&"1*ß
+1D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\StatusBar.java2 2(©
+¦
+D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\StatusBar.java2 2(
+%0javax.swing.JProgressBar"__id*8*6%
+#org.shiftone.jrat.ui.util.StatusBar"
+progressBar"h
+D
+:C:\q\jrat-0.6\src\org\shiftone\jrat\ui\util\StatusBar.java2 2( 
+
+%0javax.swing.JProgressBarB'%
+#org.shiftone.jrat.ui.util.StatusBar

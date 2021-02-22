@@ -1,0 +1,14 @@
+<aop>
+
+   <method-pointcut class="org.shiftone.jrat.test.dummy.*" methodName=".*" >
+
+       <interceptors>
+         <interceptor factory="org.shiftone.jrat.aop.JbossInterceptorFactory"/>
+       </interceptors>
+
+   </method-pointcut>
+
+</aop>
+
+
+

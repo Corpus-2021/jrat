@@ -1,0 +1,57 @@
+
+ org.shiftone.jrat.inject.process.ClassProcessor#processStream(Lorg/shiftone/jrat/inject/Injector;Ljava/io/InputStream;Ljava/io/OutputStream;Ljava/lang/String;)ZP
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java! !(#"1*Ë
+1P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java% %("z
+x
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java% %(#
+newClassDate$Array"__id*
+""ìé
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java' '(C
+%0$Array"Yorg.shiftone.jrat.inject.Injector#injectStream(Ljava/io/InputStream;Ljava/lang/String;)[B*/
+-
+injector!org.shiftone.jrat.inject.Injector*$
+"
+inputStreamjava.io.InputStream*
+
+fileNamejava.lang.String25injectStream(Ljava/io/InputStream;Ljava/lang/String;)ƒ
+€
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java' '(C
+newClassDate$Array"__id*
+
+%0$ArrayÏÌ
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java) )((
+
+%1void"java.io.OutputStream#write([B)V*&
+$
+outputStreamjava.io.OutputStream*
+
+newClassDate$Array2	write([B)ê
+ç
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java* *("
+
+%2void"<org.shiftone.jrat.util.IOUtil#close(Ljava/io/OutputStream;)V*!"
+org.shiftone.jrat.util.IOUtil*&
+$
+outputStreamjava.io.OutputStreamç
+ä
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java+ +(!
+
+%3void";org.shiftone.jrat.util.IOUtil#close(Ljava/io/InputStream;)V*!"
+org.shiftone.jrat.util.IOUtil*$
+"
+inputStreamjava.io.InputStream"Z
+P
+FC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\ClassProcessor.java- -(
+"":-
+injector!org.shiftone.jrat.inject.Injector:"
+inputStreamjava.io.InputStream:$
+outputStreamjava.io.OutputStream:
+fileNamejava.lang.StringB31
+/org.shiftone.jrat.inject.process.ClassProcessor

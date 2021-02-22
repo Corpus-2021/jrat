@@ -1,0 +1,16 @@
+
+oorg.shiftone.jrat.core.spi.AbstractMethodHandlerFactory#getContext()Lorg/shiftone/jrat/core/spi/RuntimeContext;X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.java9 9($"1*Œ
+1X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.java; ;(ﬁ
+€
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.java; ;(/
+%0)org.shiftone.jrat.core.spi.RuntimeContext"__id*H*F9
+7org.shiftone.jrat.core.spi.AbstractMethodHandlerFactory"	
+context"ç
+X
+NC:\q\jrat-0.6\src\org\shiftone\jrat\core\spi\AbstractMethodHandlerFactory.java; ;(1
+/
+%0)org.shiftone.jrat.core.spi.RuntimeContextB;9
+7org.shiftone.jrat.core.spi.AbstractMethodHandlerFactory

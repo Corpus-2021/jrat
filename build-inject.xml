@@ -1,0 +1,69 @@
+<project name="shiftone" default="inject" basedir=".">
+
+
+    <property name="lib.dir"	value="lib"/>
+
+
+	<target name="inject">
+
+	<taskdef name="injectCopy" classname="org.shiftone.jrat.inject.ant.InjectCopyTask">
+		<classpath>
+			<pathelement path="E:\work\cvs\jrat\jrat2\release\dist\shiftone-jrat.jar"/>
+			<fileset dir="${lib.dir}"/>
+		</classpath>
+	</taskdef>
+	<taskdef name="inject" classname="org.shiftone.jrat.inject.ant.InjectTask">
+		<classpath>
+			<pathelement path="E:\work\cvs\jrat\jrat2\release\dist\shiftone-jrat.jar"/>
+			<fileset dir="${lib.dir}"/>
+		</classpath>
+	</taskdef>
+
+
+	<!--
+	test
+        <injectCopy todir="d:\jboss-3.0.6-jrat\lib" verbose="true" file="D:\jboss-3.0.6-orig\lib\concurrent.jar"/>
+	-->
+
+        <inject>
+        	<fileset dir="E:\work\cvs\jrat\jrat2">
+                	<filename name="jboss-common.jar"/>
+           	</fileset>
+
+		<criteria>
+		<!--
+	            <includeClass class="org.jboss.util.stream.*"/>
+	            -->
+	            <!-- <excludeClass class="java.lang.reflect.*"/> -->
+
+	            <!-- used to match a class  -->
+
+	            <excludeMethod method="get*"/>
+	            <excludeMethod method="set*"/>
+
+		</criteria>
+        </inject>
+
+        <!--
+setAcceptFinal
+setAcceptSynchronized
+setAcceptProtected
+setAcceptPrivate
+setAcceptPublic
+ClassPattern
+MethodPattern
+SignaturePattern
+-->
+
+<!--
+        <injectCopy todir="d:\jboss-3.0.6-jrat" verbose="true">
+            <fileset dir="D:\jboss-3.0.6-orig"/>
+        </injectCopy>
+-->
+
+	</target>
+
+	<!-- ======================================================================= -->
+
+</project>
+

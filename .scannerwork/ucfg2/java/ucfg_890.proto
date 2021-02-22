@@ -1,0 +1,27 @@
+
+Oorg.shiftone.jrat.proxy.jdbc.ProxyConnection#setSavepoint()Ljava/sql/Savepoint;O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java² ²(!"1*â
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java´ ´(†ƒ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java´ ´(
+
+%0void"Eorg.shiftone.jrat.proxy.jdbc.ProxyConnection#log(Ljava/lang/String;)V*0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection*
+setSavepoint()2log(Ljava/lang/String;)½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java¶ ¶(
+%1java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnectionÓÐ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java¶ ¶(.
+%2java.sql.Savepoint"6java.sql.Connection#setSavepoint()Ljava/sql/Savepoint;*
+
+%1java.sql.Connection2setSavepoint()"m
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java¶ ¶(/
+
+%2java.sql.SavepointB0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

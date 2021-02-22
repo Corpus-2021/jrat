@@ -1,0 +1,41 @@
+
+Jorg.shiftone.jrat.ui.UserSettings#toFile(Ljava/lang/String;)Ljava/io/File;D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.javaƒ ƒ("2"3*æ
+2D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…4 …(<jh
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…/ …(3
+%2java.io.File"java.io.File¯
+¬
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…+ …(=
+%3"(java.io.File#<init>(Ljava/lang/String;)V*
+
+%2java.io.File*
+
+fileNamejava.lang.Stringx
+v
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…+ …(=
+%0java.io.File"__id*
+
+%2java.io.File*
+1*Æ
+3D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…$ …((v
+t
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java…$ …((
+%0java.io.File"__id*
+
+%1
+<nulltype>*
+1*§
+1D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java… …(>"\
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\ui\UserSettings.java… …(>
+
+%0java.io.File:
+fileNamejava.lang.StringB%#
+!org.shiftone.jrat.ui.UserSettings

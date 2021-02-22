@@ -1,0 +1,63 @@
+<?xml version="1.0"?>
+<document title="JRat with Apache Tomcat">
+
+
+	<section-group>
+
+		<p>
+		I have received several emails from people having
+		difficulty using JRat to monitor web application running
+		within Apache Tomcat.  This document will attempt to clarify the a
+		approach needed to monitoring a web application running in Tomcat.
+		</p>
+
+		<section title="Location of the JRat jar">
+			<p>
+			It is a common expectation that JRat will work if the jar
+			<bold>shiftone-jrat.jar</bold>
+			is added to the a webapps <bold>WEB-INF\lib</bold> directory.
+			This is not the case.  The jar must be installed at the server
+			"level" in Tomcat's <bold>common\lib</bold> directory.
+			</p>
+			<p>
+			The symptom that most people will see if the jar is installed in the
+			webapp, is that hey will be able to run the app without any problem.
+			The problem arises when Tomcat is shut down using the
+			<bold>shutdown</bold> script.  When this happens, output files don't get
+			flushed correctly or written at all.  This problem does not occur if
+			Tomcat is shutdown simply using Ctrl-C.
+			</p>
+			<p>
+			The cause of this problem, is that when Tomcat is shutdown, it un-deploys
+			all running webapps.  This means, that the class loader that contains the JRat
+			jar, suddenly vanishes.  If one of the handlers attempts to load a JRat
+			class, and they usually do, then it will fail.  This failure may be difficult to
+			detect under Windows because the standard Tomcat start script doesn't pause
+			before closing the console window.
+			</p>
+		</section>
+
+		<section title="Configuring JRat Options">
+			To add options to Tomcat's command line, the start scripts honor several
+			environment variables; CATALINA_OPTS and JAVA_OPTS.  Either of these may be
+			assigned to the following value.
+
+			<code>-Djrat.factory=org.shiftone.jrat.provider.tree.TreeMethodHandlerFactory</code>
+		</section>
+
+		<section title="Output Files">
+			Typically, Tomcat is started from the <bold>bin</bold> directory.  If this
+			is the case then JRat will deposit it's output files in the directory
+			<bold>bin\JRatOutput</bold>.  If you are starting Tomcat from a different
+			directory (you will need to specify CATALINA_HOME) then the output
+			directory will be created in whatever directory you are running Tomcat from.
+		</section>
+
+
+		<p>Send feedback to jrat@shiftone.org.</p>
+
+	</section-group>
+
+
+
+</document>

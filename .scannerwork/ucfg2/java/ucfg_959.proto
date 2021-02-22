@@ -1,0 +1,44 @@
+
+porg.shiftone.jrat.provider.rate.RateMethodHandler#getAndReplaceAccumulator()Lorg/shiftone/jrat/core/Accumulator;R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java7$ 7(<"1*Š
+1R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java:% :(6¥¢
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java:) :(4(
+%0"org.shiftone.jrat.core.Accumulator""org.shiftone.jrat.core.Accumulator·
+´
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java:% :(6
+%1",org.shiftone.jrat.core.Accumulator#<init>()V**
+(
+%0"org.shiftone.jrat.core.Accumulator¿
+¼
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java: :(74
+newAccumulator"org.shiftone.jrat.core.Accumulator"__id**
+(
+%0"org.shiftone.jrat.core.AccumulatorÖ
+Ó
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java;% ;(7(
+%2"org.shiftone.jrat.core.Accumulator"__id*M*K3
+1org.shiftone.jrat.provider.rate.RateMethodHandler"
+currentAccumulator¿
+¼
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java; ;(84
+oldAccumulator"org.shiftone.jrat.core.Accumulator"__id**
+(
+%2"org.shiftone.jrat.core.Accumulatorâ
+ß
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java= =(+K3
+1org.shiftone.jrat.provider.rate.RateMethodHandler"
+currentAccumulator"__id*6
+4
+newAccumulator"org.shiftone.jrat.core.Accumulator"Œ
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\RateMethodHandler.java? ?(6
+4
+oldAccumulator"org.shiftone.jrat.core.AccumulatorB53
+1org.shiftone.jrat.provider.rate.RateMethodHandler

@@ -1,0 +1,39 @@
+
+uorg.shiftone.jrat.provider.chain.MatchCriteria#newGlobMatcher(Ljava/lang/String;)Lorg/shiftone/jrat/util/GlobMatcher;O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java+ +(-"2"3*Ø
+2O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java0 0(}
+{
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java0 0(
+patternjava.lang.String"__id*
+**
+1*ƒ
+3O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java." .()¤¡
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java." .(2	
+%0int"java.lang.String#length()I*
+
+patternjava.lang.String2length()*
+2
+1*à
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java3 3(&¢Ÿ
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java3 3((
+%1"org.shiftone.jrat.util.GlobMatcher""org.shiftone.jrat.util.GlobMatcherå
+â
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java3 3('
+%2">org.shiftone.jrat.util.GlobMatcher#<init>(Ljava/lang/String;)V**
+(
+%1"org.shiftone.jrat.util.GlobMatcher*
+
+patternjava.lang.String"}
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\provider\chain\MatchCriteria.java3 3((*
+(
+%1"org.shiftone.jrat.util.GlobMatcher:
+patternjava.lang.StringB2"0
+.org.shiftone.jrat.provider.chain.MatchCriteria

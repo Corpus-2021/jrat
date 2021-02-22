@@ -1,0 +1,21 @@
+
+=org.shiftone.jrat.provider.rate.ui.RateModel#getMaxMemory(I)JO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.java÷ ÷("1*ê
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaù ù(ÅÂ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaù ù(&8
+%02org.shiftone.jrat.provider.rate.ui.RateModelSample"morg.shiftone.jrat.provider.rate.ui.RateModel#getSample(I)Lorg/shiftone/jrat/provider/rate/ui/RateModelSample;*0.
+,org.shiftone.jrat.provider.rate.ui.RateModel*
+""2getSample(I)ðí
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaù ù(5
+
+%1long"Borg.shiftone.jrat.provider.rate.ui.RateModelSample#getMaxMemory()J*:
+8
+%02org.shiftone.jrat.provider.rate.ui.RateModelSample2getMaxMemory()"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\RateModel.javaù ù(6
+"":
+""B0.
+,org.shiftone.jrat.provider.rate.ui.RateModel

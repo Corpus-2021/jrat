@@ -1,0 +1,29 @@
+
+forg.shiftone.jrat.test.dummy.CrashTestDummy#twoStringArrayArg([Ljava/lang/String;[Ljava/lang/String;)ZN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java‚ ‚($"1*œ
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„ „(‡
+„
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„ „($
+%0org.shiftone.jrat.util.log.Log"__id*
+""›˜
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java„ „(M
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*<:
+8public boolean twoStringArrayArg(String[] a, String[] b)2debug(Ljava/lang/Object;)Ä
+Á
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java… …(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java‡ ‡(%
+"":
+a$Array:
+b$ArrayB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

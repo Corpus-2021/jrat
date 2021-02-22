@@ -1,0 +1,26 @@
+
+korg.shiftone.jrat.util.IntrospectionUtil#convertSafe(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\IntrospectionUtil.java] ]($"3*µ
+2I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\IntrospectionUtil.javaa a(-"e
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\IntrospectionUtil.javaa a(-
+
+%0java.lang.Object*ê
+3I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\IntrospectionUtil.javaa a(∫
+∑
+I
+?C:\q\jrat-0.6\src\org\shiftone\jrat\util\IntrospectionUtil.javaa a(,
+%0java.lang.Object"gorg.shiftone.jrat.util.IntrospectionUtil#convert(Ljava/lang/String;Ljava/lang/Class;)Ljava/lang/Object;*,"*
+(org.shiftone.jrat.util.IntrospectionUtil*
+
+textjava.lang.String*
+
+
+targetTypejava.lang.Class*
+2:
+textjava.lang.String:
+
+targetTypejava.lang.ClassB,"*
+(org.shiftone.jrat.util.IntrospectionUtil

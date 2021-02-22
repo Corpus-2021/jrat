@@ -1,0 +1,21 @@
+
+$org.shiftone.jrat.util.Queue#size()I=
+3C:\q\jrat-0.6\src\org\shiftone\jrat\util\Queue.java; ;("1*¸
+1=
+3C:\q\jrat-0.6\src\org\shiftone\jrat\util\Queue.java= =(–
+“
+=
+3C:\q\jrat-0.6\src\org\shiftone\jrat\util\Queue.java= =(
+%0java.util.LinkedList"__id*0*.
+org.shiftone.jrat.util.Queue"
+
+linkedList‘Ž
+=
+3C:\q\jrat-0.6\src\org\shiftone\jrat\util\Queue.java= =( 	
+%1int"java.util.LinkedList#size()I*
+
+%0java.util.LinkedList2size()"G
+=
+3C:\q\jrat-0.6\src\org\shiftone\jrat\util\Queue.java= =(!
+""B 
+org.shiftone.jrat.util.Queue

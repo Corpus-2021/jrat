@@ -1,0 +1,20 @@
+
+=org.shiftone.jrat.proxy.jdbc.ProxyStatement#getUpdateCount()IN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javað ð("1*ž
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaò ò(¹
+¶
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaò ò(
+%0java.sql.Statement"__id*D*B-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement"
+targetStatement²¯
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaò ò(/	
+%1int"$java.sql.Statement#getUpdateCount()I*
+
+%0java.sql.Statement2getUpdateCount()"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyStatement.javaò ò(0
+""B/-
++org.shiftone.jrat.proxy.jdbc.ProxyStatement

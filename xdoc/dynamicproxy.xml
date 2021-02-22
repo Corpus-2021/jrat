@@ -1,0 +1,67 @@
+<?xml version="1.0"?>
+<document title="JRat Dynamic Proxies">
+
+
+	<section-group>
+		<section title="What are dynamic proxies?">
+			Since version 1.3 of the JDK, the "java.lang.reflect" has included
+			support the dynamic creation of classes at runtime.  This support
+			will create a class that implements one or more arbitrary interfaces.
+			As the name suggests, this is useful for dynamically creating proxy
+			objects that delegate to an actual concrete implementation.
+		</section>
+        <section title="What do dynamic proxies have to do with JRat?">
+			<p>
+			In JRat, proxies can be used to intercept calls to objects that implement
+			interfaces so that execution events are fired when methods are called (on
+			the proxy).  In other words, a proxy can act as a middleman between a class,
+			and the code using that class.
+			</p>
+			<p>
+			When programming against the JDBC API, it's common to access a database using
+			the java.sql.Connection interface.
+			<figure src="images/proxy_wo.png"/>
+			</p>
+			<p>
+			If a proxy is in place between the application code, and the Connection class
+			instance, then methods that are called on the proxy Connection will fire
+			execution events to the JRat runtime.
+			<figure src="images/proxy_w.png"/>
+			</p>
+		</section>
+		<section title="When are dynamic proxies used?">
+
+            <p>
+            There are two times that dynamic proxies are used.
+            </p>
+            <p>
+            First, they are used whenever you want to use them.  You can wrap any object that
+            implements an interface with a JRat dynamic proxy.  This will cause method invocations
+            on the proxy to produce JRat events.  This approach requires that you compile your
+            code with JRat in the classpath.
+            </p>
+            <p>
+            Second, and more importantly, dynamic proxies are used hook into drivers.  JRat
+            includes several drivers that will create and return dynamic proxies to "real" vendor
+            specific drivers.  This allows interactions between an application (or app server)
+            and a driver to be intercepted and monitored.
+            </p>
+            <ul>
+                <li>java.sql.Driver</li>
+                <li>javax.sql.XADataSource</li>
+                <li>javax.sql.ConnectionPoolDataSource</li>
+            </ul>
+            <p>
+            In the future, a JDBC specific method handler will be available.
+            </p>
+
+	</section>
+
+	<section title="When should I use dynamic proxies?">
+
+	</section>
+	</section-group>
+
+
+
+</document>

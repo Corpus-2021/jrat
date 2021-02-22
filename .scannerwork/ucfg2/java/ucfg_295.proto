@@ -1,0 +1,25 @@
+
+Zorg.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode#getChildAt(I)Ljavax/swing/tree/TreeNode;R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.javaM M("1*¡
+1R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.javaO O(#¹
+¶
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.javaO O(#
+%0java.util.List"__id*D*B3
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode"
+	childList›
+˜
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.javaO O(3
+%1java.lang.Object"
+__arrayGet*
+
+%0java.util.List*
+"""n
+R
+HC:\q\jrat-0.6\src\org\shiftone\jrat\ui\viewer\xml\SimpleXmlTreeNode.javaO O(4
+
+%1java.lang.Object:
+""B53
+1org.shiftone.jrat.ui.viewer.xml.SimpleXmlTreeNode

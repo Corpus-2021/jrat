@@ -1,0 +1,130 @@
+
+\org.shiftone.jrat.provider.log.io.LogOutput#getMethodId(Lorg/shiftone/jrat/core/MethodKey;)IL
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaV V("3*Ž
+2L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java\ \(¬
+©
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java\ \(
+%2java.util.Map"__id*>*<-
++org.shiftone.jrat.provider.log.io.LogOutput"
+	methodMap’
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java\ \(%	
+%3int"java.util.Map#size()I*
+
+%2java.util.Map2size()|z
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java^ ^("
+%4java.lang.Integer"java.lang.Integer˜
+•
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java^ ^(&
+%5"java.lang.Integer#<init>(I)V*
+
+%4java.lang.Integer*
+""‘
+Ž
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java^ ^(&
+methodIdjava.lang.Integer"__id*
+
+%4java.lang.Integer¬
+©
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java_ _(
+%6java.util.Map"__id*>*<-
++org.shiftone.jrat.provider.log.io.LogOutput"
+	methodMapÜ
+Ù
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.java_ _(.
+%7java.lang.Object"__mapSet*
+
+%6java.util.Map*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*
+
+methodIdjava.lang.Integer®
+«
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaa a(
+%8java.util.List"__id*?*=-
++org.shiftone.jrat.provider.log.io.LogOutput"
+
+methodListº
+·
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaa a()
+
+%9void"
+__arrayAdd*
+
+%8java.util.List*
+""*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey²
+¯
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javab b(
+%10java.io.DataOutputStream"__id*8*6-
++org.shiftone.jrat.provider.log.io.LogOutput"
+out©¦
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javab+ b(>
+
+%11int"java.lang.Integer#intValue()I*
+
+methodIdjava.lang.Integer2
+intValue()ç
+ä
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javab b(?
+%12void"torg.shiftone.jrat.provider.log.io.LogOutput#writeMethodDef(Ljava/io/DataOutput;Lorg/shiftone/jrat/core/MethodKey;I)V*/-
++org.shiftone.jrat.provider.log.io.LogOutput*!
+
+%10java.io.DataOutputStream*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey*
+
+
+%11int*
+1*Ù
+3L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaX% X(.¬
+©
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaX% X(.
+%0java.util.Map"__id*>*<-
++org.shiftone.jrat.provider.log.io.LogOutput"
+	methodMap»
+¸
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaX% X(=
+%1java.lang.Object"__mapGet*
+
+%0java.util.Map*/
+-
+	methodKey org.shiftone.jrat.core.MethodKey
+
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaX X(>
+methodIdjava.lang.Integer"__id*
+
+%1java.lang.Object*
+2
+1*Õ
+1L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaf f(©¦
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaf f("
+
+%13int"java.lang.Integer#intValue()I*
+
+methodIdjava.lang.Integer2
+intValue()"V
+L
+BC:\q\jrat-0.6\src\org\shiftone\jrat\provider\log\io\LogOutput.javaf f(#
+"":-
+	methodKey org.shiftone.jrat.core.MethodKeyB/-
++org.shiftone.jrat.provider.log.io.LogOutput

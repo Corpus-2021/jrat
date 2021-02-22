@@ -1,0 +1,32 @@
+
+Aorg.shiftone.jrat.test.harness.VirtualMethodCall#positiveRand(J)JQ
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java9 9($"1*´
+1Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java= =(¶
+³
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java= =(
+%0java.util.Random"__id*@*>2
+0org.shiftone.jrat.test.harness.VirtualMethodCall"
+random¦£
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java= =(*
+
+%1long"java.util.Random#nextLong()J*
+
+%0java.util.Random2
+nextLong()œ
+™
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java= =(+
+
+%2long"java.lang.Math#abs(J)J*"
+java.lang.Math*
+
+
+%1long"[
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\test\harness\VirtualMethodCall.java= =(3
+"":
+""B4"2
+0org.shiftone.jrat.test.harness.VirtualMethodCall

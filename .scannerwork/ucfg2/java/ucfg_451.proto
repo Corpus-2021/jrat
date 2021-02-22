@@ -1,0 +1,20 @@
+
+Aorg.shiftone.jrat.provider.tree.ui.StackTreeNode#getChildCount()IS
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.javaƒ ƒ("1*‘
+1S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java… …(¹
+¶
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java… …(
+%0java.util.List"__id*C*A2
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode"
+	childList›˜
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java… …(	
+%1int"java.util.List#size()I*
+
+%0java.util.List2size()"]
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java… …( 
+""B42
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode

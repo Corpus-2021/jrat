@@ -1,0 +1,159 @@
+
+Lorg.shiftone.jrat.ui.inject.InjectionManager#setInjectorWithUserSelection()ZO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¢ ¢(/"5*º
+2O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java∏ ∏(¥
+±
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaπ π(
+%14java.awt.Frame"__id*A*?.
+,org.shiftone.jrat.ui.inject.InjectionManager"
+parentFramez
+x
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java∫ ∫( 
+%15java.lang.String"__id*
+""z
+x
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaª ª("
+%16java.lang.String"__id*
+""m
+k
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaº º(-
+
+%17int"__id*
+""¬
+ø
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java∏ º(.
+%18void"ejavax.swing.JOptionPane#showMessageDialog(Ljava/awt/Component;Ljava/lang/Object;Ljava/lang/String;I)V*"
+javax.swing.JOptionPane*
+
+%14java.awt.Frame*
+
+%15java.lang.String*
+
+%16java.lang.String*
+
+
+%17int*
+1*…
+3O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java≤ ≤(å
+â
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java≤ ≤((
+%12!org.shiftone.jrat.ui.UserSettings"__id*
+""àÖ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java≤ ≤(-
+%13void"Aorg.shiftone.jrat.ui.UserSettings#setBcelJarFile(Ljava/io/File;)V**
+(
+%12!org.shiftone.jrat.ui.UserSettings*
+
+filejava.io.File2setBcelJarFile(Ljava/io/File;)"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¥ ¥(
+""*ƒ
+
+4O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¨ ¨(‹Ÿ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¨ ¨(,
+%7java.io.File"8javax.swing.JFileChooser#getSelectedFile()Ljava/io/File;*%
+#
+chooserjavax.swing.JFileChooser2getSelectedFile()Ü
+É
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¨ ¨(,
+filejava.io.File"__id*
+
+%7java.io.Fileà
+Ö
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaÆ Æ($
+%8org.shiftone.jrat.util.log.Log"__id*
+""…∆
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaÆ Æ(+
+%9java.lang.String"0java.io.File#getAbsolutePath()Ljava/lang/String;*
+
+filejava.io.File2getAbsolutePath()˜Ù
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.javaÆ Æ(,
+%10void"8org.shiftone.jrat.util.log.Log#info(Ljava/lang/Object;)V*&
+$
+%8org.shiftone.jrat.util.log.Log*
+
+%9java.lang.String2info(Ljava/lang/Object;)¨©
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java∞ ∞(,
+%11boolean"Torg.shiftone.jrat.ui.inject.InjectionManager#setInjectorWithJarFile(Ljava/io/File;)Z*0.
+,org.shiftone.jrat.ui.inject.InjectionManager*
+
+filejava.io.File2&setInjectorWithJarFile(Ljava/io/File;)*
+2
+3*ø
+5O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java• •(#w
+u
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java• •($
+filejava.io.File"__id*
+""éã
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¶# ¶(/
+%0javax.swing.JFileChooser"javax.swing.JFileChooser†
+ù
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¶ ¶(1
+%1""javax.swing.JFileChooser#<init>()V* 
+
+%0javax.swing.JFileChooser°
+û
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¶ ¶(2#
+chooserjavax.swing.JFileChooser"__id* 
+
+%0javax.swing.JFileChooserí
+è
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java®' ®(7.
+%2(org.shiftone.jrat.ui.util.GlobFileFilter"__id*
+""œÃ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java® ®(8
+
+%3void"Vjavax.swing.JFileChooser#addChoosableFileFilter(Ljavax/swing/filechooser/FileFilter;)V*%
+#
+chooserjavax.swing.JFileChooser*0
+.
+%2(org.shiftone.jrat.ui.util.GlobFileFilter2<addChoosableFileFilter(Ljavax/swing/filechooser/FileFilter;)l
+j
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java™ ™('	
+%4int"__id*
+""≥
+∞
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java™B ™(M
+%5java.awt.Frame"__id*A*?.
+,org.shiftone.jrat.ui.inject.InjectionManager"
+parentFrameÑÅ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java™+ ™(N	
+%6int">javax.swing.JFileChooser#showOpenDialog(Ljava/awt/Component;)I*%
+#
+chooserjavax.swing.JFileChooser*
+
+%5java.awt.Frame2$showOpenDialog(Ljava/awt/Component;)*
+4
+1*Ø
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¿ ¿("Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\ui\inject\InjectionManager.java¿ ¿(
+""B0.
+,org.shiftone.jrat.ui.inject.InjectionManager

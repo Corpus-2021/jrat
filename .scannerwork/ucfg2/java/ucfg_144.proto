@@ -1,0 +1,62 @@
+
+oorg.shiftone.jrat.jda.config.JRatConfig#getVirtualMachineConfigs()[Lorg/shiftone/jrat/jda/config/VMTraceConfig;H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java( ((3"5*¤
+3H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java/ /(Ÿ
+œ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java/) /(,
+%3java.util.List"__id*4*2)
+'org.shiftone.jrat.jda.config.JRatConfig"
+vms‘
+Ž
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java/) /(3
+%4java.lang.Object"
+__arrayGet*
+
+%3java.util.List*
+""–
+“
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java/ /(3
+%5"
+__arraySet*
+
+configs$Array*
+""*
+
+%4java.lang.Object*
+3
+1*å
+5H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java+4 +(7Ÿ
+œ
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java+4 +(7
+%0java.util.List"__id*4*2)
+'org.shiftone.jrat.jda.config.JRatConfig"
+vms
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java+4 +(>	
+%1int"java.util.List#size()I*
+
+%0java.util.List2size()b`
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java+" +(?
+%2$Array"$Arrayu
+s
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java+ +(@
+configs$Array"__id*
+
+%2$Array*
+3
+1*®
+1H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java2 2("_
+H
+>C:\q\jrat-0.6\src\org\shiftone\jrat\jda\config\JRatConfig.java2 2(
+
+configs$ArrayB+)
+'org.shiftone.jrat.jda.config.JRatConfig

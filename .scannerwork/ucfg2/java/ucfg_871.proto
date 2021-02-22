@@ -1,0 +1,21 @@
+
+8org.shiftone.jrat.proxy.jdbc.ProxyConnection#isClosed()ZO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaõ õ("1*Ÿ
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java÷ ÷(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java÷ ÷(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnection­ª
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java÷ ÷(*
+%1boolean"java.sql.Connection#isClosed()Z*
+
+%0java.sql.Connection2
+isClosed()"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java÷ ÷(+
+""B0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

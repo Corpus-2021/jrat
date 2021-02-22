@@ -1,0 +1,23 @@
+
+Horg.shiftone.jrat.proxy.jdbc.ProxyConnection#equals(Ljava/lang/Object;)ZO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaì ì("1*×
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaî î(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaî î(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnectionåâ
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaî î(+
+%1boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+%0java.sql.Connection*
+
+objjava.lang.Object2equals(Ljava/lang/Object;)"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaî î(,
+"":
+objjava.lang.ObjectB0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

@@ -1,0 +1,43 @@
+
+_org.shiftone.jrat.test.dummy.CrashTestDummy#twoObjectArg(Ljava/lang/Object;Ljava/lang/Object;)ZN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaò ò("3*¹
+2N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java÷ ÷( ŞÛ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java÷ ÷(*
+%3boolean",java.lang.Object#equals(Ljava/lang/Object;)Z*
+
+ajava.lang.Object*
+
+bjava.lang.Object2equals(Ljava/lang/Object;)*
+1*Â
+3N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaô ô(‡
+„
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaô ô($
+%0org.shiftone.jrat.util.log.Log"__id*
+""“
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaô ô(E
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*42
+0public boolean twoObjectArg(Object a, Object b))2debug(Ljava/lang/Object;)Ä
+Á
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaõ õ(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy*
+2
+1*­
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java÷ ÷(,"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.java÷ ÷(,
+"":
+ajava.lang.Object:
+bjava.lang.ObjectB/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

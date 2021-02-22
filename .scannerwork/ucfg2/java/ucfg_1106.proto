@@ -1,0 +1,20 @@
+
+Aorg.shiftone.jrat.inject.process.OpenInputStream#markSupported()ZQ
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javaa a( "1*°
+1Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javac c(¾
+»
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javac c(
+%0java.io.InputStream"__id*E*C2
+0org.shiftone.jrat.inject.process.OpenInputStream"
+inputStream¹¶
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javac c(*
+%1boolean"$java.io.InputStream#markSupported()Z*
+
+%0java.io.InputStream2markSupported()"[
+Q
+GC:\q\jrat-0.6\src\org\shiftone\jrat\inject\process\OpenInputStream.javac c(+
+""B42
+0org.shiftone.jrat.inject.process.OpenInputStream

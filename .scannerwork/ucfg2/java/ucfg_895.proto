@@ -1,0 +1,21 @@
+
+8org.shiftone.jrat.proxy.jdbc.ProxyConnection#hashCode()IO
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.java÷ ÷("1*˜
+1O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaù ù(½
+º
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaù ù(
+%0java.sql.Connection"__id*F*D.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection"
+targetConnection¦£
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaù ù(*	
+%1int"java.lang.Object#hashCode()I*
+
+%0java.sql.Connection2
+hashCode()"Y
+O
+CC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\jdbc\ProxyConnection.javaù ù(+
+""B0.
+,org.shiftone.jrat.proxy.jdbc.ProxyConnection

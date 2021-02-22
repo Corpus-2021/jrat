@@ -1,0 +1,28 @@
+
+=org.shiftone.jrat.test.dummy.CrashTestDummy#returnLongArg(J)JN
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaí í("1*Ö
+1N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaî î(á
+Ñ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaî î($
+%0org.shiftone.jrat.util.log.Log"__id*
+""ÑÅ
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaî î(6
+
+%1void"9org.shiftone.jrat.util.log.Log#debug(Ljava/lang/Object;)V*&
+$
+%0org.shiftone.jrat.util.log.Log*%#
+!public long returnLongArg(long i)2debug(Ljava/lang/Object;)ƒ
+¡
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaï ï(
+
+%2void"2org.shiftone.jrat.test.dummy.CrashTestDummy#nap()V*/"-
++org.shiftone.jrat.test.dummy.CrashTestDummy"X
+N
+BC:\q\jrat-0.6\src\org\shiftone\jrat\test\dummy\CrashTestDummy.javaó ó(
+"":
+""B/-
++org.shiftone.jrat.test.dummy.CrashTestDummy

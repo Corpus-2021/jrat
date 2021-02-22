@@ -1,0 +1,20 @@
+
+3org.shiftone.jrat.util.CountingInputStream#skip(J)JK
+AC:\q\jrat-0.6\src\org\shiftone\jrat\util\CountingInputStream.javak k(!"3*Í
+3K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\util\CountingInputStream.javam m(í
+è
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\util\CountingInputStream.javam m($
+
+%0long"$java.io.BufferedInputStream#skip(J)J*
+""*
+""*
+1*ß
+1K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\util\CountingInputStream.javau u("U
+K
+AC:\q\jrat-0.6\src\org\shiftone\jrat\util\CountingInputStream.javau u(
+"":
+""B.,
+*org.shiftone.jrat.util.CountingInputStream

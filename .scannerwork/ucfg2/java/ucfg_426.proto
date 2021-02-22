@@ -1,0 +1,58 @@
+
+Porg.shiftone.jrat.util.StringUtil#revision(Ljava/lang/String;)Ljava/lang/String;D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.java≥ ≥(!"4*∏
+2D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaπ π(ïí
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaπ$ π(0	
+%2int"java.lang.String#length()I*
+
+revjava.lang.String2length()À»
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaπ π(5
+%3java.lang.String"0java.lang.String#substring(II)Ljava/lang/String;*
+
+revjava.lang.String*2*
+""2substring(II)Å
+
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaπ π(5
+verjava.lang.String"__id*
+
+%3java.lang.String*
+1*∑
+3D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.java∑ ∑(!Å
+
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.java∑- ∑(?
+%0java.lang.String"__concat*
+$*
+
+Revision: ﬂ‹
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.java∑ ∑(@
+%1boolean"0java.lang.String#startsWith(Ljava/lang/String;)Z*
+
+revjava.lang.String*
+
+%0java.lang.String2startsWith(Ljava/lang/String;)*
+2
+1*¡
+4D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaµ µ(n
+l
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaµ µ(
+verjava.lang.String"__id*
+?*
+3
+1*¨
+1D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaΩ Ω("a
+D
+8C:\q\jrat-0.6\src\org\shiftone\jrat\util\StringUtil.javaΩ Ω(
+
+verjava.lang.String:
+revjava.lang.StringB%"#
+!org.shiftone.jrat.util.StringUtil

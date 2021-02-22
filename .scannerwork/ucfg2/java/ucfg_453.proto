@@ -1,0 +1,23 @@
+
+Worg.shiftone.jrat.provider.tree.ui.StackTreeNode#getIndex(Ljavax/swing/tree/TreeNode;)IS
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java™ ™("1*à
+1S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java› ›(¹
+¶
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java› ›(
+%0java.util.List"__id*C*A2
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode"
+	childListêç
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java› ›(&	
+%1int"+java.util.List#indexOf(Ljava/lang/Object;)I*
+
+%0java.util.List*#
+!
+nodejavax.swing.tree.TreeNode2indexOf(Ljava/lang/Object;)"]
+S
+GC:\q\jrat-0.6\src\org\shiftone\jrat\provider\tree\ui\StackTreeNode.java› ›('
+"":!
+nodejavax.swing.tree.TreeNodeB42
+0org.shiftone.jrat.provider.tree.ui.StackTreeNode

@@ -1,0 +1,32 @@
+
+morg.shiftone.jrat.test.SAXConfiguratorTestCase#getExampleInputStream(Ljava/lang/String;)Ljava/io/InputStream;O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java0 0(-"1*Ë
+1O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java3 3(½
+º
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java31 3(B
+%0java.lang.String"__id*I*G0
+.org.shiftone.jrat.test.SAXConfiguratorTestCase"
+EXAMPLE_BASE_PATH¬
+©
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java31 3(I
+%1java.lang.String"__concat*
+
+%0java.lang.String*
+
+namejava.lang.String•
+’
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java3 3(J
+%2java.io.InputStream"aorg.shiftone.jrat.util.ResourceUtil#loadResourceAsStream(Ljava/lang/String;)Ljava/io/InputStream;*'"%
+#org.shiftone.jrat.util.ResourceUtil*
+
+%1java.lang.String"n
+O
+EC:\q\jrat-0.6\src\org\shiftone\jrat\test\SAXConfiguratorTestCase.java3 3(K
+
+%2java.io.InputStream:
+namejava.lang.StringB20
+.org.shiftone.jrat.test.SAXConfiguratorTestCase

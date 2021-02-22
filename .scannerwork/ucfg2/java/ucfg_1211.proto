@@ -1,0 +1,42 @@
+
+worg.shiftone.jrat.proxy.MethInvocationHandler#safeGetTracedProxy(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.javaŒ Œ(+"5*Ì
+2P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java‘ ‘(1ê
+ç
+P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java‘ ‘(1
+proxyjava.lang.Object"__id*
+
+%0java.lang.Object*
+1*¨
+4P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java‘ ‘("œ
+Ã
+P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java‘ ‘(1
+%0java.lang.Object"sorg.shiftone.jrat.proxy.MethInvocationHandler#getTracedProxy(Ljava/lang/Object;Ljava/lang/Class;)Ljava/lang/Object;*1"/
+-org.shiftone.jrat.proxy.MethInvocationHandler*
+
+targetjava.lang.Object*
+
+ifacejava.lang.Class*
+2*Ò
+5P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java– –(î
+ë
+P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java– –(
+proxyjava.lang.Object"__id*
+
+targetjava.lang.Object*
+4*∆
+1P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java€ €("o
+P
+DC:\q\jrat-0.6\src\org\shiftone\jrat\proxy\MethInvocationHandler.java€ €(
+
+proxyjava.lang.Object:
+targetjava.lang.Object:
+ifacejava.lang.ClassB1"/
+-org.shiftone.jrat.proxy.MethInvocationHandler

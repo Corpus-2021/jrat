@@ -1,0 +1,20 @@
+
+Korg.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph#getPointCount()I[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java* *("1*©
+1[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java, ,(é
+æ
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java, ,(2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel"__id*M*K<
+:org.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph"
+	rateModelóð
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java, ,()	
+%1int">org.shiftone.jrat.provider.rate.ui.RateModel#getSampleCount()I*4
+2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel2getSampleCount()"e
+[
+QC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\MeanDurationGraph.java, ,(*
+""B><
+:org.shiftone.jrat.provider.rate.ui.graph.MeanDurationGraph

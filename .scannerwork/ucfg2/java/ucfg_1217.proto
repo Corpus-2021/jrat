@@ -1,0 +1,20 @@
+
+Iorg.shiftone.jrat.provider.rate.ui.graph.UsedMemoryGraph#getPointCount()IY
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\UsedMemoryGraph.java% %("1*Ÿ
+1Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\UsedMemoryGraph.java' '(å
+â
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\UsedMemoryGraph.java' '(2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel"__id*K*I:
+8org.shiftone.jrat.provider.rate.ui.graph.UsedMemoryGraph"
+	rateModelñî
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\UsedMemoryGraph.java' '()	
+%1int">org.shiftone.jrat.provider.rate.ui.RateModel#getSampleCount()I*4
+2
+%0,org.shiftone.jrat.provider.rate.ui.RateModel2getSampleCount()"c
+Y
+OC:\q\jrat-0.6\src\org\shiftone\jrat\provider\rate\ui\graph\UsedMemoryGraph.java' '(*
+""B<:
+8org.shiftone.jrat.provider.rate.ui.graph.UsedMemoryGraph
